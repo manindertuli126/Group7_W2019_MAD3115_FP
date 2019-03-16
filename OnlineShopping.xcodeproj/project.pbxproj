@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		FA1F200D223CB420007CC7B9 /* WelcomeWall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA1F200C223CB420007CC7B9 /* WelcomeWall.jpg */; };
+		FA689C95223D9B9C00503474 /* AudiIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA689C94223D9B9C00503474 /* AudiIcon.png */; };
+		FA689C99223D9C0800503474 /* BMWIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA689C98223D9C0800503474 /* BMWIcon.png */; };
+		FA689C9B223D9C1400503474 /* lamborghini-282390.png in Resources */ = {isa = PBXBuildFile; fileRef = FA689C9A223D9C1400503474 /* lamborghini-282390.png */; };
+		FA689C9D223D9C1D00503474 /* BentleyIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA689C9C223D9C1D00503474 /* BentleyIcon.png */; };
+		FA689C9F223D9C2300503474 /* MercedesIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA689C9E223D9C2300503474 /* MercedesIcon.png */; };
 		FA8C99BE223D8724001874D3 /* BMWBack.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8C99B6223D8723001874D3 /* BMWBack.png */; };
 		FA8C99BF223D8724001874D3 /* MercedesFront.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA8C99B7223D8724001874D3 /* MercedesFront.jpg */; };
 		FA8C99C0223D8724001874D3 /* MercedesBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA8C99B8223D8724001874D3 /* MercedesBack.jpg */; };
@@ -34,6 +39,11 @@
 
 /* Begin PBXFileReference section */
 		FA1F200C223CB420007CC7B9 /* WelcomeWall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WelcomeWall.jpg; sourceTree = "<group>"; };
+		FA689C94223D9B9C00503474 /* AudiIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudiIcon.png; sourceTree = "<group>"; };
+		FA689C98223D9C0800503474 /* BMWIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BMWIcon.png; sourceTree = "<group>"; };
+		FA689C9A223D9C1400503474 /* lamborghini-282390.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamborghini-282390.png"; sourceTree = "<group>"; };
+		FA689C9C223D9C1D00503474 /* BentleyIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BentleyIcon.png; sourceTree = "<group>"; };
+		FA689C9E223D9C2300503474 /* MercedesIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MercedesIcon.png; sourceTree = "<group>"; };
 		FA8C99B6223D8723001874D3 /* BMWBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BMWBack.png; sourceTree = "<group>"; };
 		FA8C99B7223D8724001874D3 /* MercedesFront.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MercedesFront.jpg; sourceTree = "<group>"; };
 		FA8C99B8223D8724001874D3 /* MercedesBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MercedesBack.jpg; sourceTree = "<group>"; };
@@ -83,7 +93,12 @@
 				FA8C99B7223D8724001874D3 /* MercedesFront.jpg */,
 				FA8C99B8223D8724001874D3 /* MercedesBack.jpg */,
 				FA8C99BA223D8724001874D3 /* LamborghiniFront.png */,
+				FA689C94223D9B9C00503474 /* AudiIcon.png */,
 				FA8C99BB223D8724001874D3 /* LamborghiniBack.png */,
+				FA689C98223D9C0800503474 /* BMWIcon.png */,
+				FA689C9C223D9C1D00503474 /* BentleyIcon.png */,
+				FA689C9E223D9C2300503474 /* MercedesIcon.png */,
+				FA689C9A223D9C1400503474 /* lamborghini-282390.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -208,10 +223,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA689C95223D9B9C00503474 /* AudiIcon.png in Resources */,
 				FAF89845223819EB00FC3FA4 /* LaunchScreen.storyboard in Resources */,
 				FA1F200D223CB420007CC7B9 /* WelcomeWall.jpg in Resources */,
 				FA9E2178223CC39500CF9616 /* AudiBack.jpg in Resources */,
 				FA8C99C0223D8724001874D3 /* MercedesBack.jpg in Resources */,
+				FA689C9B223D9C1400503474 /* lamborghini-282390.png in Resources */,
 				FAF89842223819EB00FC3FA4 /* Assets.xcassets in Resources */,
 				FA8C99BF223D8724001874D3 /* MercedesFront.jpg in Resources */,
 				FA8C99C5223D8724001874D3 /* BMWFront.png in Resources */,
@@ -219,6 +236,9 @@
 				FA8C99C4223D8724001874D3 /* BentleyBack.png in Resources */,
 				FA8C99BE223D8724001874D3 /* BMWBack.png in Resources */,
 				FA8C99C1223D8724001874D3 /* BentleyFront.png in Resources */,
+				FA689C99223D9C0800503474 /* BMWIcon.png in Resources */,
+				FA689C9D223D9C1D00503474 /* BentleyIcon.png in Resources */,
+				FA689C9F223D9C2300503474 /* MercedesIcon.png in Resources */,
 				FA9E2177223CC39500CF9616 /* AudiFront.jpeg in Resources */,
 				FA8C99C2223D8724001874D3 /* LamborghiniFront.png in Resources */,
 				FAF89840223819EA00FC3FA4 /* Main.storyboard in Resources */,
