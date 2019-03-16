@@ -7,17 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA1F200D223CB420007CC7B9 /* WelcomeWall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA1F200C223CB420007CC7B9 /* WelcomeWall.jpg */; };
+		FA8C99BE223D8724001874D3 /* BMWBack.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8C99B6223D8723001874D3 /* BMWBack.png */; };
+		FA8C99BF223D8724001874D3 /* MercedesFront.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA8C99B7223D8724001874D3 /* MercedesFront.jpg */; };
+		FA8C99C0223D8724001874D3 /* MercedesBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA8C99B8223D8724001874D3 /* MercedesBack.jpg */; };
+		FA8C99C1223D8724001874D3 /* BentleyFront.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8C99B9223D8724001874D3 /* BentleyFront.png */; };
+		FA8C99C2223D8724001874D3 /* LamborghiniFront.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8C99BA223D8724001874D3 /* LamborghiniFront.png */; };
+		FA8C99C3223D8724001874D3 /* LamborghiniBack.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8C99BB223D8724001874D3 /* LamborghiniBack.png */; };
+		FA8C99C4223D8724001874D3 /* BentleyBack.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8C99BC223D8724001874D3 /* BentleyBack.png */; };
+		FA8C99C5223D8724001874D3 /* BMWFront.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8C99BD223D8724001874D3 /* BMWFront.png */; };
+		FA9E2177223CC39500CF9616 /* AudiFront.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA9E2175223CC39400CF9616 /* AudiFront.jpeg */; };
+		FA9E2178223CC39500CF9616 /* AudiBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA9E2176223CC39500CF9616 /* AudiBack.jpg */; };
+		FACEF485223A05E700A59B6C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEF484223A05E700A59B6C /* SignUpViewController.swift */; };
+		FACEF487223A060400A59B6C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEF486223A060400A59B6C /* WelcomeViewController.swift */; };
+		FACEF489223A08C300A59B6C /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEF488223A08C300A59B6C /* MenuTableViewController.swift */; };
+		FACEF48B223A0BC400A59B6C /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEF48A223A0BC400A59B6C /* ItemDetailsViewController.swift */; };
+		FACEF48D223A0C0700A59B6C /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEF48C223A0C0700A59B6C /* ItemsTableViewController.swift */; };
+		FACEF492223A0CE600A59B6C /* UpdateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEF491223A0CE600A59B6C /* UpdateProfileViewController.swift */; };
+		FACEF494223A0D3300A59B6C /* DisplayUpdatedProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEF493223A0D3300A59B6C /* DisplayUpdatedProfileTableViewController.swift */; };
 		FAF8983B223819EA00FC3FA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF8983A223819EA00FC3FA4 /* AppDelegate.swift */; };
-		FAF8983D223819EA00FC3FA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF8983C223819EA00FC3FA4 /* ViewController.swift */; };
+		FAF8983D223819EA00FC3FA4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF8983C223819EA00FC3FA4 /* LoginViewController.swift */; };
 		FAF89840223819EA00FC3FA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF8983E223819EA00FC3FA4 /* Main.storyboard */; };
 		FAF89842223819EB00FC3FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF89841223819EB00FC3FA4 /* Assets.xcassets */; };
 		FAF89845223819EB00FC3FA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF89843223819EB00FC3FA4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA1F200C223CB420007CC7B9 /* WelcomeWall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WelcomeWall.jpg; sourceTree = "<group>"; };
+		FA8C99B6223D8723001874D3 /* BMWBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BMWBack.png; sourceTree = "<group>"; };
+		FA8C99B7223D8724001874D3 /* MercedesFront.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MercedesFront.jpg; sourceTree = "<group>"; };
+		FA8C99B8223D8724001874D3 /* MercedesBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MercedesBack.jpg; sourceTree = "<group>"; };
+		FA8C99B9223D8724001874D3 /* BentleyFront.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BentleyFront.png; sourceTree = "<group>"; };
+		FA8C99BA223D8724001874D3 /* LamborghiniFront.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LamborghiniFront.png; sourceTree = "<group>"; };
+		FA8C99BB223D8724001874D3 /* LamborghiniBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LamborghiniBack.png; sourceTree = "<group>"; };
+		FA8C99BC223D8724001874D3 /* BentleyBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BentleyBack.png; sourceTree = "<group>"; };
+		FA8C99BD223D8724001874D3 /* BMWFront.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BMWFront.png; sourceTree = "<group>"; };
+		FA9E2175223CC39400CF9616 /* AudiFront.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AudiFront.jpeg; sourceTree = "<group>"; };
+		FA9E2176223CC39500CF9616 /* AudiBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AudiBack.jpg; sourceTree = "<group>"; };
+		FACEF484223A05E700A59B6C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FACEF486223A060400A59B6C /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		FACEF488223A08C300A59B6C /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		FACEF48A223A0BC400A59B6C /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
+		FACEF48C223A0C0700A59B6C /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
+		FACEF491223A0CE600A59B6C /* UpdateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileViewController.swift; sourceTree = "<group>"; };
+		FACEF493223A0D3300A59B6C /* DisplayUpdatedProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayUpdatedProfileTableViewController.swift; sourceTree = "<group>"; };
 		FAF89837223819EA00FC3FA4 /* OnlineShopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineShopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF8983A223819EA00FC3FA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAF8983C223819EA00FC3FA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAF8983C223819EA00FC3FA4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FAF8983F223819EA00FC3FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAF89841223819EB00FC3FA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAF89844223819EB00FC3FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +71,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA1E65D7223B5AC6008C2CC8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FA9E2175223CC39400CF9616 /* AudiFront.jpeg */,
+				FA9E2176223CC39500CF9616 /* AudiBack.jpg */,
+				FA8C99BD223D8724001874D3 /* BMWFront.png */,
+				FA8C99B6223D8723001874D3 /* BMWBack.png */,
+				FA8C99B9223D8724001874D3 /* BentleyFront.png */,
+				FA8C99BC223D8724001874D3 /* BentleyBack.png */,
+				FA8C99B7223D8724001874D3 /* MercedesFront.jpg */,
+				FA8C99B8223D8724001874D3 /* MercedesBack.jpg */,
+				FA8C99BA223D8724001874D3 /* LamborghiniFront.png */,
+				FA8C99BB223D8724001874D3 /* LamborghiniBack.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FACEF48E223A0C1E00A59B6C /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				FACEF48C223A0C0700A59B6C /* ItemsTableViewController.swift */,
+				FACEF48A223A0BC400A59B6C /* ItemDetailsViewController.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		FACEF48F223A0C3D00A59B6C /* SignUpAndLogin */ = {
+			isa = PBXGroup;
+			children = (
+				FACEF484223A05E700A59B6C /* SignUpViewController.swift */,
+				FAF8983C223819EA00FC3FA4 /* LoginViewController.swift */,
+			);
+			path = SignUpAndLogin;
+			sourceTree = "<group>";
+		};
+		FACEF490223A0CC300A59B6C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FACEF491223A0CE600A59B6C /* UpdateProfileViewController.swift */,
+				FACEF493223A0D3300A59B6C /* DisplayUpdatedProfileTableViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		FAF8982E223819E900FC3FA4 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +134,18 @@
 		FAF89839223819EA00FC3FA4 /* OnlineShopping */ = {
 			isa = PBXGroup;
 			children = (
+				FA1E65D7223B5AC6008C2CC8 /* Images */,
+				FACEF490223A0CC300A59B6C /* Profile */,
+				FACEF48F223A0C3D00A59B6C /* SignUpAndLogin */,
+				FACEF48E223A0C1E00A59B6C /* Items */,
 				FAF8983A223819EA00FC3FA4 /* AppDelegate.swift */,
-				FAF8983C223819EA00FC3FA4 /* ViewController.swift */,
 				FAF8983E223819EA00FC3FA4 /* Main.storyboard */,
+				FA1F200C223CB420007CC7B9 /* WelcomeWall.jpg */,
 				FAF89841223819EB00FC3FA4 /* Assets.xcassets */,
 				FAF89843223819EB00FC3FA4 /* LaunchScreen.storyboard */,
 				FAF89846223819EB00FC3FA4 /* Info.plist */,
+				FACEF486223A060400A59B6C /* WelcomeViewController.swift */,
+				FACEF488223A08C300A59B6C /* MenuTableViewController.swift */,
 			);
 			path = OnlineShopping;
 			sourceTree = "<group>";
@@ -123,7 +209,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF89845223819EB00FC3FA4 /* LaunchScreen.storyboard in Resources */,
+				FA1F200D223CB420007CC7B9 /* WelcomeWall.jpg in Resources */,
+				FA9E2178223CC39500CF9616 /* AudiBack.jpg in Resources */,
+				FA8C99C0223D8724001874D3 /* MercedesBack.jpg in Resources */,
 				FAF89842223819EB00FC3FA4 /* Assets.xcassets in Resources */,
+				FA8C99BF223D8724001874D3 /* MercedesFront.jpg in Resources */,
+				FA8C99C5223D8724001874D3 /* BMWFront.png in Resources */,
+				FA8C99C3223D8724001874D3 /* LamborghiniBack.png in Resources */,
+				FA8C99C4223D8724001874D3 /* BentleyBack.png in Resources */,
+				FA8C99BE223D8724001874D3 /* BMWBack.png in Resources */,
+				FA8C99C1223D8724001874D3 /* BentleyFront.png in Resources */,
+				FA9E2177223CC39500CF9616 /* AudiFront.jpeg in Resources */,
+				FA8C99C2223D8724001874D3 /* LamborghiniFront.png in Resources */,
 				FAF89840223819EA00FC3FA4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +232,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAF8983D223819EA00FC3FA4 /* ViewController.swift in Sources */,
+				FACEF485223A05E700A59B6C /* SignUpViewController.swift in Sources */,
+				FACEF487223A060400A59B6C /* WelcomeViewController.swift in Sources */,
+				FACEF48B223A0BC400A59B6C /* ItemDetailsViewController.swift in Sources */,
+				FACEF489223A08C300A59B6C /* MenuTableViewController.swift in Sources */,
+				FAF8983D223819EA00FC3FA4 /* LoginViewController.swift in Sources */,
+				FACEF492223A0CE600A59B6C /* UpdateProfileViewController.swift in Sources */,
 				FAF8983B223819EA00FC3FA4 /* AppDelegate.swift in Sources */,
+				FACEF48D223A0C0700A59B6C /* ItemsTableViewController.swift in Sources */,
+				FACEF494223A0D3300A59B6C /* DisplayUpdatedProfileTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
