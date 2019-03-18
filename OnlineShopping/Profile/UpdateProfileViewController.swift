@@ -12,7 +12,7 @@ class UpdateProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+//        self.navigationItem.rightBarButtonItem = self.editButtonItem
         // Do any additional setup after loading the view.
     }
     

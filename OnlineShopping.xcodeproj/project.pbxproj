@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA07E78D223DED1C009789BD /* UserCredentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA07E78C223DED1C009789BD /* UserCredentials.plist */; };
+		FA1C79722240320100505104 /* Screen Shot 2019-03-18 at 4.07.01 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = FA1C79712240320100505104 /* Screen Shot 2019-03-18 at 4.07.01 PM.png */; };
 		FA1F200D223CB420007CC7B9 /* WelcomeWall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA1F200C223CB420007CC7B9 /* WelcomeWall.jpg */; };
+		FA5CF1BA223DA402003D0F46 /* ProfilePicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CF1B9223DA402003D0F46 /* ProfilePicViewController.swift */; };
 		FA689C95223D9B9C00503474 /* AudiIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA689C94223D9B9C00503474 /* AudiIcon.png */; };
 		FA689C99223D9C0800503474 /* BMWIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA689C98223D9C0800503474 /* BMWIcon.png */; };
 		FA689C9B223D9C1400503474 /* lamborghini-282390.png in Resources */ = {isa = PBXBuildFile; fileRef = FA689C9A223D9C1400503474 /* lamborghini-282390.png */; };
@@ -38,7 +41,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA07E78C223DED1C009789BD /* UserCredentials.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UserCredentials.plist; sourceTree = "<group>"; };
+		FA1C79712240320100505104 /* Screen Shot 2019-03-18 at 4.07.01 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-03-18 at 4.07.01 PM.png"; sourceTree = "<group>"; };
 		FA1F200C223CB420007CC7B9 /* WelcomeWall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WelcomeWall.jpg; sourceTree = "<group>"; };
+		FA5CF1B9223DA402003D0F46 /* ProfilePicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePicViewController.swift; sourceTree = "<group>"; };
 		FA689C94223D9B9C00503474 /* AudiIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudiIcon.png; sourceTree = "<group>"; };
 		FA689C98223D9C0800503474 /* BMWIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BMWIcon.png; sourceTree = "<group>"; };
 		FA689C9A223D9C1400503474 /* lamborghini-282390.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamborghini-282390.png"; sourceTree = "<group>"; };
@@ -84,6 +90,8 @@
 		FA1E65D7223B5AC6008C2CC8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				FA1C79712240320100505104 /* Screen Shot 2019-03-18 at 4.07.01 PM.png */,
+				FA1F200C223CB420007CC7B9 /* WelcomeWall.jpg */,
 				FA9E2175223CC39400CF9616 /* AudiFront.jpeg */,
 				FA9E2176223CC39500CF9616 /* AudiBack.jpg */,
 				FA8C99BD223D8724001874D3 /* BMWFront.png */,
@@ -155,12 +163,13 @@
 				FACEF48E223A0C1E00A59B6C /* Items */,
 				FAF8983A223819EA00FC3FA4 /* AppDelegate.swift */,
 				FAF8983E223819EA00FC3FA4 /* Main.storyboard */,
-				FA1F200C223CB420007CC7B9 /* WelcomeWall.jpg */,
 				FAF89841223819EB00FC3FA4 /* Assets.xcassets */,
 				FAF89843223819EB00FC3FA4 /* LaunchScreen.storyboard */,
 				FAF89846223819EB00FC3FA4 /* Info.plist */,
 				FACEF486223A060400A59B6C /* WelcomeViewController.swift */,
 				FACEF488223A08C300A59B6C /* MenuTableViewController.swift */,
+				FA5CF1B9223DA402003D0F46 /* ProfilePicViewController.swift */,
+				FA07E78C223DED1C009789BD /* UserCredentials.plist */,
 			);
 			path = OnlineShopping;
 			sourceTree = "<group>";
@@ -227,8 +236,10 @@
 				FAF89845223819EB00FC3FA4 /* LaunchScreen.storyboard in Resources */,
 				FA1F200D223CB420007CC7B9 /* WelcomeWall.jpg in Resources */,
 				FA9E2178223CC39500CF9616 /* AudiBack.jpg in Resources */,
+				FA07E78D223DED1C009789BD /* UserCredentials.plist in Resources */,
 				FA8C99C0223D8724001874D3 /* MercedesBack.jpg in Resources */,
 				FA689C9B223D9C1400503474 /* lamborghini-282390.png in Resources */,
+				FA1C79722240320100505104 /* Screen Shot 2019-03-18 at 4.07.01 PM.png in Resources */,
 				FAF89842223819EB00FC3FA4 /* Assets.xcassets in Resources */,
 				FA8C99BF223D8724001874D3 /* MercedesFront.jpg in Resources */,
 				FA8C99C5223D8724001874D3 /* BMWFront.png in Resources */,
@@ -257,6 +268,7 @@
 				FACEF48B223A0BC400A59B6C /* ItemDetailsViewController.swift in Sources */,
 				FACEF489223A08C300A59B6C /* MenuTableViewController.swift in Sources */,
 				FAF8983D223819EA00FC3FA4 /* LoginViewController.swift in Sources */,
+				FA5CF1BA223DA402003D0F46 /* ProfilePicViewController.swift in Sources */,
 				FACEF492223A0CE600A59B6C /* UpdateProfileViewController.swift in Sources */,
 				FAF8983B223819EA00FC3FA4 /* AppDelegate.swift in Sources */,
 				FACEF48D223A0C0700A59B6C /* ItemsTableViewController.swift in Sources */,

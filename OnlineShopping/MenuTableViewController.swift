@@ -43,7 +43,7 @@ class MenuTableViewController: UITableViewController {
                 print("My Account")
                 self.performSegue(withIdentifier: "moveToUpdateProfile", sender: nil)
             case 1:
-                print("Clicked")
+                print("About Us")
             case 2:
                 print("LogOut")
                 self.performSegue(withIdentifier: "moveToWelcomePage", sender: nil)

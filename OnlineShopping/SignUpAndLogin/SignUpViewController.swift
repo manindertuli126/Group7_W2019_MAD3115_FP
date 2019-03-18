@@ -10,6 +10,7 @@ import UIKit
 
 class SignUpViewController: UIViewController {
 
+    let userData = UserDefaults.standard
     @IBOutlet weak var signUpPageUsernameTxt: UITextField!
     @IBOutlet weak var signUpPageEmailTxt: UITextField!
     @IBOutlet weak var signUpPagePasswordTxt: UITextField!
@@ -18,11 +19,16 @@ class SignUpViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+        signUpPagePasswordTxt.isSecureTextEntry = true
     }
     
 
     @IBAction func signUpPageSubmitBtn(_ sender: UIButton) {
+        
+        userData.set(signUpPageUsernameTxt.text, forKey: "username")
+        userData.set(signUpPagePasswordTxt.text, forKey: "password")
+        userData.set(signUpPageEmailTxt.text, forKey: "email")
+        userData.set(signUpPageAddressTxt.text, forKey: "address")
         
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let welcomeVC = sb.instantiateViewController(withIdentifier: "WelcomeVC") as! WelcomeViewController
