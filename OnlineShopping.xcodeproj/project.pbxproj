@@ -8,14 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		FA07E78D223DED1C009789BD /* UserCredentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA07E78C223DED1C009789BD /* UserCredentials.plist */; };
-		FA1C79722240320100505104 /* Screen Shot 2019-03-18 at 4.07.01 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = FA1C79712240320100505104 /* Screen Shot 2019-03-18 at 4.07.01 PM.png */; };
+		FA1DF773224069CB0038952F /* AddToCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DF772224069CB0038952F /* AddToCartViewController.swift */; };
+		FA1E5F41224095610096835F /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1E5F40224095610096835F /* AboutUsViewController.swift */; };
+		FA1E5F43224095870096835F /* AboutUsData.html in Resources */ = {isa = PBXBuildFile; fileRef = FA1E5F42224095870096835F /* AboutUsData.html */; };
 		FA1F200D223CB420007CC7B9 /* WelcomeWall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA1F200C223CB420007CC7B9 /* WelcomeWall.jpg */; };
+		FA22081022412B8E0042D912 /* SignUpbackgroungImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA22080F22412B8E0042D912 /* SignUpbackgroungImage.jpg */; };
+		FA38366622404AA7006D87C1 /* LoginBackGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA38366522404AA7006D87C1 /* LoginBackGround.jpg */; };
 		FA5CF1BA223DA402003D0F46 /* ProfilePicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CF1B9223DA402003D0F46 /* ProfilePicViewController.swift */; };
+		FA62E60422407CA4006FDC41 /* SignUpBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA62E60322407CA4006FDC41 /* SignUpBackground.jpg */; };
 		FA689C95223D9B9C00503474 /* AudiIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA689C94223D9B9C00503474 /* AudiIcon.png */; };
 		FA689C99223D9C0800503474 /* BMWIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA689C98223D9C0800503474 /* BMWIcon.png */; };
 		FA689C9B223D9C1400503474 /* lamborghini-282390.png in Resources */ = {isa = PBXBuildFile; fileRef = FA689C9A223D9C1400503474 /* lamborghini-282390.png */; };
 		FA689C9D223D9C1D00503474 /* BentleyIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA689C9C223D9C1D00503474 /* BentleyIcon.png */; };
 		FA689C9F223D9C2300503474 /* MercedesIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA689C9E223D9C2300503474 /* MercedesIcon.png */; };
+		FA7C45EA22403BD500F20CA2 /* verifyValidations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C45E922403BD500F20CA2 /* verifyValidations.swift */; };
 		FA8C99BE223D8724001874D3 /* BMWBack.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8C99B6223D8723001874D3 /* BMWBack.png */; };
 		FA8C99BF223D8724001874D3 /* MercedesFront.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA8C99B7223D8724001874D3 /* MercedesFront.jpg */; };
 		FA8C99C0223D8724001874D3 /* MercedesBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA8C99B8223D8724001874D3 /* MercedesBack.jpg */; };
@@ -42,14 +48,20 @@
 
 /* Begin PBXFileReference section */
 		FA07E78C223DED1C009789BD /* UserCredentials.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UserCredentials.plist; sourceTree = "<group>"; };
-		FA1C79712240320100505104 /* Screen Shot 2019-03-18 at 4.07.01 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-03-18 at 4.07.01 PM.png"; sourceTree = "<group>"; };
+		FA1DF772224069CB0038952F /* AddToCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartViewController.swift; sourceTree = "<group>"; };
+		FA1E5F40224095610096835F /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		FA1E5F42224095870096835F /* AboutUsData.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = AboutUsData.html; sourceTree = "<group>"; };
 		FA1F200C223CB420007CC7B9 /* WelcomeWall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WelcomeWall.jpg; sourceTree = "<group>"; };
+		FA22080F22412B8E0042D912 /* SignUpbackgroungImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SignUpbackgroungImage.jpg; sourceTree = "<group>"; };
+		FA38366522404AA7006D87C1 /* LoginBackGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LoginBackGround.jpg; sourceTree = "<group>"; };
 		FA5CF1B9223DA402003D0F46 /* ProfilePicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePicViewController.swift; sourceTree = "<group>"; };
+		FA62E60322407CA4006FDC41 /* SignUpBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SignUpBackground.jpg; sourceTree = "<group>"; };
 		FA689C94223D9B9C00503474 /* AudiIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudiIcon.png; sourceTree = "<group>"; };
 		FA689C98223D9C0800503474 /* BMWIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BMWIcon.png; sourceTree = "<group>"; };
 		FA689C9A223D9C1400503474 /* lamborghini-282390.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamborghini-282390.png"; sourceTree = "<group>"; };
 		FA689C9C223D9C1D00503474 /* BentleyIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BentleyIcon.png; sourceTree = "<group>"; };
 		FA689C9E223D9C2300503474 /* MercedesIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MercedesIcon.png; sourceTree = "<group>"; };
+		FA7C45E922403BD500F20CA2 /* verifyValidations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verifyValidations.swift; sourceTree = "<group>"; };
 		FA8C99B6223D8723001874D3 /* BMWBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BMWBack.png; sourceTree = "<group>"; };
 		FA8C99B7223D8724001874D3 /* MercedesFront.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MercedesFront.jpg; sourceTree = "<group>"; };
 		FA8C99B8223D8724001874D3 /* MercedesBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MercedesBack.jpg; sourceTree = "<group>"; };
@@ -87,10 +99,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA1E5F442240958E0096835F /* About Us */ = {
+			isa = PBXGroup;
+			children = (
+				FA1E5F40224095610096835F /* AboutUsViewController.swift */,
+				FA1E5F42224095870096835F /* AboutUsData.html */,
+			);
+			path = "About Us";
+			sourceTree = "<group>";
+		};
 		FA1E65D7223B5AC6008C2CC8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				FA1C79712240320100505104 /* Screen Shot 2019-03-18 at 4.07.01 PM.png */,
+				FA62E60322407CA4006FDC41 /* SignUpBackground.jpg */,
+				FA38366522404AA7006D87C1 /* LoginBackGround.jpg */,
 				FA1F200C223CB420007CC7B9 /* WelcomeWall.jpg */,
 				FA9E2175223CC39400CF9616 /* AudiFront.jpeg */,
 				FA9E2176223CC39500CF9616 /* AudiBack.jpg */,
@@ -106,9 +128,18 @@
 				FA689C98223D9C0800503474 /* BMWIcon.png */,
 				FA689C9C223D9C1D00503474 /* BentleyIcon.png */,
 				FA689C9E223D9C2300503474 /* MercedesIcon.png */,
+				FA22080F22412B8E0042D912 /* SignUpbackgroungImage.jpg */,
 				FA689C9A223D9C1400503474 /* lamborghini-282390.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		FA62E5E022406D3D006FDC41 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				FACEF488223A08C300A59B6C /* MenuTableViewController.swift */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 		FACEF48E223A0C1E00A59B6C /* Items */ = {
@@ -157,9 +188,11 @@
 		FAF89839223819EA00FC3FA4 /* OnlineShopping */ = {
 			isa = PBXGroup;
 			children = (
-				FA1E65D7223B5AC6008C2CC8 /* Images */,
-				FACEF490223A0CC300A59B6C /* Profile */,
 				FACEF48F223A0C3D00A59B6C /* SignUpAndLogin */,
+				FACEF490223A0CC300A59B6C /* Profile */,
+				FA1E65D7223B5AC6008C2CC8 /* Images */,
+				FA62E5E022406D3D006FDC41 /* Menu */,
+				FA1E5F442240958E0096835F /* About Us */,
 				FACEF48E223A0C1E00A59B6C /* Items */,
 				FAF8983A223819EA00FC3FA4 /* AppDelegate.swift */,
 				FAF8983E223819EA00FC3FA4 /* Main.storyboard */,
@@ -167,9 +200,10 @@
 				FAF89843223819EB00FC3FA4 /* LaunchScreen.storyboard */,
 				FAF89846223819EB00FC3FA4 /* Info.plist */,
 				FACEF486223A060400A59B6C /* WelcomeViewController.swift */,
-				FACEF488223A08C300A59B6C /* MenuTableViewController.swift */,
 				FA5CF1B9223DA402003D0F46 /* ProfilePicViewController.swift */,
 				FA07E78C223DED1C009789BD /* UserCredentials.plist */,
+				FA7C45E922403BD500F20CA2 /* verifyValidations.swift */,
+				FA1DF772224069CB0038952F /* AddToCartViewController.swift */,
 			);
 			path = OnlineShopping;
 			sourceTree = "<group>";
@@ -234,20 +268,23 @@
 			files = (
 				FA689C95223D9B9C00503474 /* AudiIcon.png in Resources */,
 				FAF89845223819EB00FC3FA4 /* LaunchScreen.storyboard in Resources */,
+				FA22081022412B8E0042D912 /* SignUpbackgroungImage.jpg in Resources */,
 				FA1F200D223CB420007CC7B9 /* WelcomeWall.jpg in Resources */,
+				FA62E60422407CA4006FDC41 /* SignUpBackground.jpg in Resources */,
 				FA9E2178223CC39500CF9616 /* AudiBack.jpg in Resources */,
 				FA07E78D223DED1C009789BD /* UserCredentials.plist in Resources */,
 				FA8C99C0223D8724001874D3 /* MercedesBack.jpg in Resources */,
 				FA689C9B223D9C1400503474 /* lamborghini-282390.png in Resources */,
-				FA1C79722240320100505104 /* Screen Shot 2019-03-18 at 4.07.01 PM.png in Resources */,
 				FAF89842223819EB00FC3FA4 /* Assets.xcassets in Resources */,
 				FA8C99BF223D8724001874D3 /* MercedesFront.jpg in Resources */,
 				FA8C99C5223D8724001874D3 /* BMWFront.png in Resources */,
 				FA8C99C3223D8724001874D3 /* LamborghiniBack.png in Resources */,
 				FA8C99C4223D8724001874D3 /* BentleyBack.png in Resources */,
 				FA8C99BE223D8724001874D3 /* BMWBack.png in Resources */,
+				FA38366622404AA7006D87C1 /* LoginBackGround.jpg in Resources */,
 				FA8C99C1223D8724001874D3 /* BentleyFront.png in Resources */,
 				FA689C99223D9C0800503474 /* BMWIcon.png in Resources */,
+				FA1E5F43224095870096835F /* AboutUsData.html in Resources */,
 				FA689C9D223D9C1D00503474 /* BentleyIcon.png in Resources */,
 				FA689C9F223D9C2300503474 /* MercedesIcon.png in Resources */,
 				FA9E2177223CC39500CF9616 /* AudiFront.jpeg in Resources */,
@@ -264,13 +301,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				FACEF485223A05E700A59B6C /* SignUpViewController.swift in Sources */,
+				FA1E5F41224095610096835F /* AboutUsViewController.swift in Sources */,
 				FACEF487223A060400A59B6C /* WelcomeViewController.swift in Sources */,
 				FACEF48B223A0BC400A59B6C /* ItemDetailsViewController.swift in Sources */,
 				FACEF489223A08C300A59B6C /* MenuTableViewController.swift in Sources */,
 				FAF8983D223819EA00FC3FA4 /* LoginViewController.swift in Sources */,
 				FA5CF1BA223DA402003D0F46 /* ProfilePicViewController.swift in Sources */,
 				FACEF492223A0CE600A59B6C /* UpdateProfileViewController.swift in Sources */,
+				FA7C45EA22403BD500F20CA2 /* verifyValidations.swift in Sources */,
 				FAF8983B223819EA00FC3FA4 /* AppDelegate.swift in Sources */,
+				FA1DF773224069CB0038952F /* AddToCartViewController.swift in Sources */,
 				FACEF48D223A0C0700A59B6C /* ItemsTableViewController.swift in Sources */,
 				FACEF494223A0D3300A59B6C /* DisplayUpdatedProfileTableViewController.swift in Sources */,
 			);

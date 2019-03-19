@@ -32,6 +32,7 @@ class MenuTableViewController: UITableViewController {
                 self.performSegue(withIdentifier: "moveToItemsList", sender: nil)
             case 1:
                 print("Cart")
+                self.performSegue(withIdentifier: "moveToAddToCart", sender: nil)
             case 2:
                 print("Orders")
             default:
@@ -44,6 +45,7 @@ class MenuTableViewController: UITableViewController {
                 self.performSegue(withIdentifier: "moveToUpdateProfile", sender: nil)
             case 1:
                 print("About Us")
+                self.performSegue(withIdentifier: "moveToAboutUs", sender: nil)
             case 2:
                 print("LogOut")
                 self.performSegue(withIdentifier: "moveToWelcomePage", sender: nil)

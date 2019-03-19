@@ -10,6 +10,7 @@ import UIKit
 
 class ItemDetailsViewController: UIViewController {
 
+    @IBOutlet weak var TitleBarAdded: UINavigationItem!
     var firstImage : String!
     var secondImage : String!
     
@@ -18,6 +19,7 @@ class ItemDetailsViewController: UIViewController {
         super.viewDidLoad()
         
         ItemDetailsPgImage.image = UIImage(named: firstImage)
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Add To Cart", style: .done, target: self, action: #selector(addItemToCart))
         // Do any additional setup after loading the view.
     }
     
@@ -31,6 +33,12 @@ class ItemDetailsViewController: UIViewController {
         default:
             print("Invalid")
         }
+    }
+    
+    @objc func addItemToCart(sender: Any){
+       let VC = UIStoryboard(name: "Main", bundle: nil)
+       let addToCartVC = VC.instantiateViewController(withIdentifier: "addToCartVC") as! AddToCartViewController
+        self.navigationController?.pushViewController(addToCartVC, animated: true)
     }
     
     /*
