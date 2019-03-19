@@ -1,18 +1,18 @@
 //
-//  UpdateProfileViewController.swift
+//  updateProfileViewController.swift
 //  OnlineShopping
 //
-//  Created by Macbook on 2019-03-14.
+//  Created by Macbook on 2019-03-19.
 //  Copyright © 2019 Macbook. All rights reserved.
 //
 
 import UIKit
 
-class UpdateProfileViewController: UIViewController {
+class updateUserProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        self.navigationItem.rightBarButtonItem = self.editButtonItem
+
         // Do any additional setup after loading the view.
     }
     

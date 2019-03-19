@@ -16,7 +16,7 @@
 		FA2208122241303A0042D912 /* itemlistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2208112241303A0042D912 /* itemlistCollectionViewCell.swift */; };
 		FA220814224130E70042D912 /* itemcollectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220813224130E70042D912 /* itemcollectionsViewController.swift */; };
 		FA38366622404AA7006D87C1 /* LoginBackGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA38366522404AA7006D87C1 /* LoginBackGround.jpg */; };
-		FA4F6AE62241800500DAD200 /* updateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F6AE52241800500DAD200 /* updateProfileViewController.swift */; };
+		FA4F6AE62241800500DAD200 /* updateUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F6AE52241800500DAD200 /* updateUserProfileViewController.swift */; };
 		FA4F6AE82241815C00DAD200 /* profilePic.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4F6AE72241815B00DAD200 /* profilePic.png */; };
 		FA62E60422407CA4006FDC41 /* SignUpBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA62E60322407CA4006FDC41 /* SignUpBackground.jpg */; };
 		FA689C95223D9B9C00503474 /* AudiIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FA689C94223D9B9C00503474 /* AudiIcon.png */; };
@@ -58,7 +58,7 @@
 		FA2208112241303A0042D912 /* itemlistCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemlistCollectionViewCell.swift; sourceTree = "<group>"; };
 		FA220813224130E70042D912 /* itemcollectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemcollectionsViewController.swift; sourceTree = "<group>"; };
 		FA38366522404AA7006D87C1 /* LoginBackGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LoginBackGround.jpg; sourceTree = "<group>"; };
-		FA4F6AE52241800500DAD200 /* updateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateProfileViewController.swift; sourceTree = "<group>"; };
+		FA4F6AE52241800500DAD200 /* updateUserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateUserProfileViewController.swift; sourceTree = "<group>"; };
 		FA4F6AE72241815B00DAD200 /* profilePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profilePic.png; sourceTree = "<group>"; };
 		FA62E60322407CA4006FDC41 /* SignUpBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SignUpBackground.jpg; sourceTree = "<group>"; };
 		FA689C94223D9B9C00503474 /* AudiIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudiIcon.png; sourceTree = "<group>"; };
@@ -169,7 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				FACEF491223A0CE600A59B6C /* ProfileViewController.swift */,
-				FA4F6AE52241800500DAD200 /* updateProfileViewController.swift */,
+				FA4F6AE52241800500DAD200 /* updateUserProfileViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -318,7 +318,7 @@
 				FACEF492223A0CE600A59B6C /* ProfileViewController.swift in Sources */,
 				FA7C45EA22403BD500F20CA2 /* verifyValidations.swift in Sources */,
 				FAF8983B223819EA00FC3FA4 /* AppDelegate.swift in Sources */,
-				FA4F6AE62241800500DAD200 /* updateProfileViewController.swift in Sources */,
+				FA4F6AE62241800500DAD200 /* updateUserProfileViewController.swift in Sources */,
 				FA1DF773224069CB0038952F /* AddToCartViewController.swift in Sources */,
 				FACEF48D223A0C0700A59B6C /* ItemsTableViewController.swift in Sources */,
 			);
