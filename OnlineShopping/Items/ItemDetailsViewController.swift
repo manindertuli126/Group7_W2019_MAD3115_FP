@@ -10,7 +10,6 @@ import UIKit
 
 class ItemDetailsViewController: UIViewController {
 
-    @IBOutlet weak var TitleBarAdded: UINavigationItem!
     var firstImage : String!
     var secondImage : String!
     

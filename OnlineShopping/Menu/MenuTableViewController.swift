@@ -14,7 +14,8 @@ class MenuTableViewController: UITableViewController {
         super.viewDidLoad()
         
         self.navigationItem.setHidesBackButton(true, animated: true)
-
+        self.navigationItem.title = "Home"
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
