@@ -30,7 +30,7 @@ class MenuTableViewController: UITableViewController {
             switch indexPath.row{
             case 0:
                 print("Items List")
-                self.performSegue(withIdentifier: "moveToItemsList", sender: nil)
+                self.performSegue(withIdentifier: "movetoItemList", sender: nil)
             case 1:
                 print("Cart")
                 self.performSegue(withIdentifier: "moveToAddToCart", sender: nil)

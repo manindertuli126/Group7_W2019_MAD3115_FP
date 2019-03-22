@@ -59,7 +59,7 @@ class ProfileViewController: UIViewController,UINavigationControllerDelegate,UII
     
     @objc func editProfile(){
         let sb = UIStoryboard(name: "Main", bundle: nil)
-        let profilepage = sb.instantiateViewController(withIdentifier: "updateProfileVC") as! updateProfileViewController
+        let profilepage = sb.instantiateViewController(withIdentifier: "updateProfileVC") as! updateUserProfileViewController
         self.navigationController?.pushViewController(profilepage, animated: true)
     }
 
