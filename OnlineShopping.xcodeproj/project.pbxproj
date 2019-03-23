@@ -50,6 +50,7 @@
 		FACEF489223A08C300A59B6C /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEF488223A08C300A59B6C /* MenuTableViewController.swift */; };
 		FACEF48B223A0BC400A59B6C /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEF48A223A0BC400A59B6C /* ItemDetailsViewController.swift */; };
 		FACEF492223A0CE600A59B6C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEF491223A0CE600A59B6C /* ProfileViewController.swift */; };
+		FAF8027F2246DC4800D92179 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF8027E2246DC4800D92179 /* OrderTableViewCell.swift */; };
 		FAF8983B223819EA00FC3FA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF8983A223819EA00FC3FA4 /* AppDelegate.swift */; };
 		FAF8983D223819EA00FC3FA4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF8983C223819EA00FC3FA4 /* LoginViewController.swift */; };
 		FAF89840223819EA00FC3FA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF8983E223819EA00FC3FA4 /* Main.storyboard */; };
@@ -101,6 +102,7 @@
 		FACEF488223A08C300A59B6C /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		FACEF48A223A0BC400A59B6C /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
 		FACEF491223A0CE600A59B6C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FAF8027E2246DC4800D92179 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
 		FAF89837223819EA00FC3FA4 /* OnlineShopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineShopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF8983A223819EA00FC3FA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAF8983C223819EA00FC3FA4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 		FA0CCD72224566CD003C3ED6 /* SwitClasses */ = {
 			isa = PBXGroup;
 			children = (
+				FA7C45E922403BD500F20CA2 /* verifyValidations.swift */,
 				FA0CCD75224566E5003C3ED6 /* Products */,
 			);
 			path = SwitClasses;
@@ -159,7 +162,6 @@
 		FA1E65D7223B5AC6008C2CC8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				FA90F11E224694740047A6E4 /* ShoppingIcon.jpg */,
 				FA3EDB1B22419FF4001D4A30 /* product Images */,
 				FA3EDB1A22419FC7001D4A30 /* BackgroundImages */,
 				FA3EDB0F22419F97001D4A30 /* Icons */,
@@ -197,6 +199,7 @@
 		FA3EDB1B22419FF4001D4A30 /* product Images */ = {
 			isa = PBXGroup;
 			children = (
+				FA90F11E224694740047A6E4 /* ShoppingIcon.jpg */,
 				FA0CCD7722457437003C3ED6 /* FerrariBack.png */,
 				FA0CCD7622457437003C3ED6 /* FerrariFront.png */,
 				FA3EDB1C2241A1F1001D4A30 /* BentleyBack.jpg */,
@@ -225,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				FA90F11C22468F150047A6E4 /* OrdersViewController.swift */,
+				FAF8027E2246DC4800D92179 /* OrderTableViewCell.swift */,
 			);
 			path = Order;
 			sourceTree = "<group>";
@@ -242,6 +246,7 @@
 		FACEF48F223A0C3D00A59B6C /* SignUpAndLogin */ = {
 			isa = PBXGroup;
 			children = (
+				FACEF486223A060400A59B6C /* WelcomeViewController.swift */,
 				FACEF484223A05E700A59B6C /* SignUpViewController.swift */,
 				FAF8983C223819EA00FC3FA4 /* LoginViewController.swift */,
 			);
@@ -290,9 +295,7 @@
 				FAF89841223819EB00FC3FA4 /* Assets.xcassets */,
 				FAF89843223819EB00FC3FA4 /* LaunchScreen.storyboard */,
 				FAF89846223819EB00FC3FA4 /* Info.plist */,
-				FACEF486223A060400A59B6C /* WelcomeViewController.swift */,
 				FA07E78C223DED1C009789BD /* UserCredentials.plist */,
-				FA7C45E922403BD500F20CA2 /* verifyValidations.swift */,
 			);
 			path = OnlineShopping;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				FA1E5F41224095610096835F /* AboutUsViewController.swift in Sources */,
 				FACEF487223A060400A59B6C /* WelcomeViewController.swift in Sources */,
 				FACEF48B223A0BC400A59B6C /* ItemDetailsViewController.swift in Sources */,
+				FAF8027F2246DC4800D92179 /* OrderTableViewCell.swift in Sources */,
 				FA0CCD8022459DE7003C3ED6 /* cartItemsTableViewCell.swift in Sources */,
 				FACEF489223A08C300A59B6C /* MenuTableViewController.swift in Sources */,
 				FA0CCD7B224598BC003C3ED6 /* Cart.swift in Sources */,

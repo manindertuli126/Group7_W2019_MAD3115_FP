@@ -36,33 +36,33 @@ class LoginViewController: UIViewController {
     
     @IBAction func loginPageSubmitBtn(_ sender: UIButton) {
         
-//        if (loginPageUserTxt.text?.count)! > 1 && (loginPagePassTxt.text?.count)! > 1{
-//        if loginPageUserTxt.text! == (getUserData.string(forKey: "username")!) && loginPagePassTxt.text! == (getUserData.string(forKey: "password")!){
-//
-//            if rememberMeBtn.isOn{
-//                getUserData.set(loginPageUserTxt, forKey: "loginuser")
-//                getUserData.set(loginPagePassTxt, forKey: "loginpass")
-//            }else{
-//                getUserData.removeObject(forKey: "loginuser")
-//                getUserData.removeObject(forKey: "loginpass")
-//            }
+        if (loginPageUserTxt.text?.count)! > 1 && (loginPagePassTxt.text?.count)! > 1{
+        if loginPageUserTxt.text! == (getUserData.string(forKey: "username")!) && loginPagePassTxt.text! == (getUserData.string(forKey: "password")!){
+
+            if rememberMeBtn.isOn{
+                getUserData.set(getUserData.string(forKey: "username")!, forKey: "loginuser")
+                getUserData.set(getUserData.string(forKey: "password")!, forKey: "loginpass")
+            }else{
+                getUserData.removeObject(forKey: "loginuser")
+                getUserData.removeObject(forKey: "loginpass")
+            }
 
             //move to Home Page
             let sb = UIStoryboard(name: "Main", bundle: nil)
             let menuVC = sb.instantiateViewController(withIdentifier: "MenuVC") as! MenuTableViewController
             self.navigationController?.pushViewController(menuVC, animated: true)
             
-//        }else{
-//            let loginValidationAlert = UIAlertController(title: "Validation Alert", message: "Incorrect Username Or Password. Please Try Again!!", preferredStyle: .alert)
-//            loginValidationAlert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-//            self.present(loginValidationAlert, animated: true)
-//        }
-//    }
-//    else{
-//    let emptyAlert = UIAlertController(title: "ALERT", message: "Username or Password text fields cannot be blank.", preferredStyle: .alert)
-//            emptyAlert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-//            self.present(emptyAlert,animated: true)
-//        }
+        }else{
+            let loginValidationAlert = UIAlertController(title: "Validation Alert", message: "Incorrect Username Or Password. Please Try Again!!", preferredStyle: .alert)
+            loginValidationAlert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            self.present(loginValidationAlert, animated: true)
+        }
+    }
+    else{
+    let emptyAlert = UIAlertController(title: "ALERT", message: "Username or Password text fields cannot be blank.", preferredStyle: .alert)
+            emptyAlert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            self.present(emptyAlert,animated: true)
+        }
     }
     
     

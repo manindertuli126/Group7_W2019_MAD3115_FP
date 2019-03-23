@@ -10,10 +10,11 @@ import Foundation
 
 class Cart{
     
+    static let accessCart = Cart()
     private var cartid:Int?
     var productid:String?
     var quantity:Int?
-    var dateadded=Date()
+    var OrderID = Int.random(in: 99...999)
 //    var count:Int?
 //    var subtotal:Float?
 //    var total:Float?
@@ -21,14 +22,13 @@ class Cart{
 //    var price:Float=0.0
 //    var tprice:Float?
     var productList = [Products]()
-    var orderedProduct = Dictionary<Int,[Cart]>()
     
-    init()
+    private init()
     {
         self.cartid=Int()
         self.productid=String()
         self.quantity=Int()
-        self.dateadded=Date()
+//        self.dateadded=Date()
     }
     
     init(productid:String,cartid:Int,quantity:Int,dateadded:Date)
@@ -36,7 +36,7 @@ class Cart{
         self.productid=productid
         self.cartid=cartid
         self.quantity=quantity
-        self.dateadded=dateadded
+//        self.dateadded=dateadded
     }
     
     func addcartitem(addproduct : Products)

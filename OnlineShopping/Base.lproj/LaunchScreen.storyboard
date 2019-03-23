@@ -58,7 +58,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ShoppingIcon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fs7-Eo-hNN">
-                                <rect key="frame" x="113" y="153" width="186" height="138"/>
+                                <rect key="frame" x="128" y="148" width="118" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>

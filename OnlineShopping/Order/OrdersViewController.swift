@@ -8,11 +8,17 @@
 
 import UIKit
 
-class OrdersViewController: UIViewController {
-
+class OrdersViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+    
+    var excessProductList = Cart.accessCart
+    var getAddress = UserDefaults.standard
+    var randomOrderId = Int()
+    
+    @IBOutlet weak var orderTable: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.orderTable.delegate = self
+        self.orderTable.dataSource = self
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Home", style: .done ,target: self, action: #selector(BackToHome))
         // Do any additional setup after loading the view.
     }
@@ -21,6 +27,22 @@ class OrdersViewController: UIViewController {
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let homeVC = sb.instantiateViewController(withIdentifier: "MenuVC") as! MenuTableViewController
         self.navigationController?.pushViewController(homeVC, animated: true)
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        print(Products.accessOrder.orderedProduct.count)
+        return Products.accessOrder.orderedProduct.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let orderCell = tableView.dequeueReusableCell(withIdentifier: "PlacedOrderCell") as! OrderTableViewCell
+        orderCell.orderIdLbl.text = String(excessProductList.OrderID)
+        orderCell.shippingLbl.text = getAddress.string(forKey: "address")
+        return orderCell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 150.0
     }
     /*
     // MARK: - Navigation

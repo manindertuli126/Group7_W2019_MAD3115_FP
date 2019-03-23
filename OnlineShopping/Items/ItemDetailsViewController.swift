@@ -11,8 +11,6 @@ import UIKit
 class ItemDetailsViewController: UIViewController {
 
     var itemDetailObject = Products()
-    var cartClass = Cart()
-    var randomCartId = Int.random(in: 0...999)
     
     @IBOutlet weak var itemNameLbl: UILabel!
     @IBOutlet weak var ItemDetailsPgImage: UIImageView!
@@ -46,12 +44,11 @@ class ItemDetailsViewController: UIViewController {
     }
     
     @objc func callAddItemToCart(){
-//        cartClass.productList.append(itemDetailObject)
+        Cart.accessCart.productList.append(itemDetailObject)
         self.itemDetailObject.productQuantity = Int(quantityTxt.text!)!
         let itemAlert = UIAlertController(title: "ALERT", message: "Item Added to cart successfully !!", preferredStyle: .alert)
         itemAlert.addAction(UIAlertAction(title: "OK", style: .default, handler: {action in let sb = UIStoryboard(name: "Main", bundle: nil)
             let cartVC = sb.instantiateViewController(withIdentifier: "addToCartVC") as! AddToCartViewController
-            cartVC.cartClass = self.itemDetailObject
             self.navigationController?.pushViewController(cartVC, animated: true)
         }))
         self.present(itemAlert,animated: true)

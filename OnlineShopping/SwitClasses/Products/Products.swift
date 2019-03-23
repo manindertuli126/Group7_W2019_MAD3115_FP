@@ -9,6 +9,7 @@
 import Foundation
 
 class Products{
+    static let accessOrder = Products()
     let productid:String
     var productFImage:String
     var productBImage:String
@@ -18,6 +19,7 @@ class Products{
     var productPrice:Float
     var productQuantity:Int
     var productdetails=Dictionary<Int,Products>()
+    var orderedProduct = Dictionary<Int,[Products]>()
     
     init (){
         self.productid = String()

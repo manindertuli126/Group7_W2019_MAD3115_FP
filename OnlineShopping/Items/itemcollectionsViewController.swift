@@ -27,7 +27,7 @@ class itemcollectionsViewController: UIViewController, UICollectionViewDataSourc
     }
     
     func appendItemDetails(){
-        let product1 = Products(productid: "111" ,productName: "Audi Q5", productBrand: "Audi", productDescription: "This officially licensed Audi Q5 ride-on for toddlers 3-8 years (under supervision of adult) with maximum rider weight of 66lbs", productPrice: 350.0, productFImage: "AudiFront.jpeg",productBImage: "AudiBack.jpg", productQuantity:1)
+        let product1 = Products(productid: "111" ,productName: "Audi Q5", productBrand: "Audi", productDescription: "This officially licensed Audi Q5 ride-on for toddlers 3-8 years (under supervision of adult) with maximum rider weight of 66lbs", productPrice: 550.0, productFImage: "AudiFront.jpeg",productBImage: "AudiBack.jpg", productQuantity:1)
         
         let product2 = Products(productid: "222", productName: "BMW i8", productBrand: "BMW", productDescription: "The BMW i8 is ready to revolutionize its battery ride-on class. No longer a vision, but charged intelligence.", productPrice: 450.0, productFImage: "BMWFront",productBImage: "BMWBack", productQuantity:1)
         
@@ -35,7 +35,7 @@ class itemcollectionsViewController: UIViewController, UICollectionViewDataSourc
         
         let product4 = Products(productid: "444",productName: "Mercedes G55", productBrand: "Mercedes", productDescription: "Exclusively detailed exterior, licensed Mercedes benz G55 packed with all of the authentic badges,sounds, LED lights, MP3 input.", productPrice: 620.0, productFImage: "MercedesFront.jpg",productBImage: "MercedesBack.jpg", productQuantity:1)
         
-        let product5 = Products(productid: "555",productName: "Lamborghini Aventador", productBrand: "Lamborghini", productDescription: " Kids will love this ride on car with sport looking with upgraded 2x12v motors and 12v strong battery.", productPrice: 550.0, productFImage: "LamborghiniFront",productBImage: "LamborghiniBack", productQuantity:1)
+        let product5 = Products(productid: "555",productName: "Lamborghini Aventador", productBrand: "Lamborghini", productDescription: " Kids will love this ride on car with sport looking with upgraded 2x12v motors and 12v strong battery.", productPrice: 560.0, productFImage: "LamborghiniFront",productBImage: "LamborghiniBack", productQuantity:1)
         
         let product6 = Products(productid: "666", productName: "Ferrari 12V LaFerrari", productBrand: "Ferrari", productDescription: "Officially licensed Ferrari LaFerrari electric ride on car Can be controlled by child via steering wheel and pedal or by parent with the included remote controller", productPrice: 320.0, productFImage: "FerrariFront",productBImage: "FerrariBack", productQuantity:1)
         
