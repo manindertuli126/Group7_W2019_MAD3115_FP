@@ -40,6 +40,8 @@
 		FA8C99C2223D8724001874D3 /* LamborghiniFront.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8C99BA223D8724001874D3 /* LamborghiniFront.png */; };
 		FA8C99C3223D8724001874D3 /* LamborghiniBack.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8C99BB223D8724001874D3 /* LamborghiniBack.png */; };
 		FA8C99C5223D8724001874D3 /* BMWFront.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8C99BD223D8724001874D3 /* BMWFront.png */; };
+		FA90F11A22468B880047A6E4 /* Launch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA90F11922468B880047A6E4 /* Launch.jpg */; };
+		FA90F11D22468F150047A6E4 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA90F11C22468F150047A6E4 /* OrdersViewController.swift */; };
 		FA9E2177223CC39500CF9616 /* AudiFront.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA9E2175223CC39400CF9616 /* AudiFront.jpeg */; };
 		FA9E2178223CC39500CF9616 /* AudiBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA9E2176223CC39500CF9616 /* AudiBack.jpg */; };
 		FACEF485223A05E700A59B6C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEF484223A05E700A59B6C /* SignUpViewController.swift */; };
@@ -88,6 +90,8 @@
 		FA8C99BA223D8724001874D3 /* LamborghiniFront.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LamborghiniFront.png; sourceTree = "<group>"; };
 		FA8C99BB223D8724001874D3 /* LamborghiniBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LamborghiniBack.png; sourceTree = "<group>"; };
 		FA8C99BD223D8724001874D3 /* BMWFront.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BMWFront.png; sourceTree = "<group>"; };
+		FA90F11922468B880047A6E4 /* Launch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Launch.jpg; sourceTree = "<group>"; };
+		FA90F11C22468F150047A6E4 /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
 		FA9E2175223CC39400CF9616 /* AudiFront.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AudiFront.jpeg; sourceTree = "<group>"; };
 		FA9E2176223CC39500CF9616 /* AudiBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AudiBack.jpg; sourceTree = "<group>"; };
 		FACEF484223A05E700A59B6C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -176,6 +180,7 @@
 		FA3EDB1A22419FC7001D4A30 /* BackgroundImages */ = {
 			isa = PBXGroup;
 			children = (
+				FA90F11922468B880047A6E4 /* Launch.jpg */,
 				FA4B3457224669A300879BA7 /* aboutUs.jpg */,
 				FA4F6AE72241815B00DAD200 /* profilePic.png */,
 				FA62E60322407CA4006FDC41 /* SignUpBackground.jpg */,
@@ -211,6 +216,14 @@
 				FACEF488223A08C300A59B6C /* MenuTableViewController.swift */,
 			);
 			path = Menu;
+			sourceTree = "<group>";
+		};
+		FA90F11B22468EF80047A6E4 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				FA90F11C22468F150047A6E4 /* OrdersViewController.swift */,
+			);
+			path = Order;
 			sourceTree = "<group>";
 		};
 		FACEF48E223A0C1E00A59B6C /* Items */ = {
@@ -260,6 +273,7 @@
 		FAF89839223819EA00FC3FA4 /* OnlineShopping */ = {
 			isa = PBXGroup;
 			children = (
+				FA90F11B22468EF80047A6E4 /* Order */,
 				FA0CCD7C22459AB3003C3ED6 /* Shopping Cart */,
 				FA0CCD72224566CD003C3ED6 /* SwitClasses */,
 				FACEF48F223A0C3D00A59B6C /* SignUpAndLogin */,
@@ -362,6 +376,7 @@
 				FA38366622404AA7006D87C1 /* LoginBackGround.jpg in Resources */,
 				FA3EDB1E2241A1F1001D4A30 /* BentleyBack.jpg in Resources */,
 				FA3EDB1722419FBD001D4A30 /* BMWIcon.jpg in Resources */,
+				FA90F11A22468B880047A6E4 /* Launch.jpg in Resources */,
 				FA1E5F43224095870096835F /* AboutUsData.html in Resources */,
 				FA0CCD7822457437003C3ED6 /* FerrariFront.png in Resources */,
 				FA9E2177223CC39500CF9616 /* AudiFront.jpeg in Resources */,
@@ -392,6 +407,7 @@
 				FAF8983B223819EA00FC3FA4 /* AppDelegate.swift in Sources */,
 				FA4F6AE62241800500DAD200 /* updateUserProfileViewController.swift in Sources */,
 				FA1DF773224069CB0038952F /* AddToCartViewController.swift in Sources */,
+				FA90F11D22468F150047A6E4 /* OrdersViewController.swift in Sources */,
 				FA0CCD74224566E1003C3ED6 /* Products.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

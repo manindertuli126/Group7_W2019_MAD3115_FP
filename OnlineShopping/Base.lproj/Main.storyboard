@@ -337,6 +337,7 @@
                         <segue destination="4gT-Ox-MxR" kind="show" identifier="moveToAddToCart" id="Tx0-fV-3wp"/>
                         <segue destination="azR-jG-lb3" kind="show" identifier="moveToAboutUs" id="Elx-3b-eIn"/>
                         <segue destination="YHK-jF-LFf" kind="show" identifier="movetoItemList" id="xjp-Qr-pqC"/>
+                        <segue destination="Qph-k2-jSR" kind="show" identifier="moveToOrder" id="qRL-4t-nVt"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DKP-6C-8Qc" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -836,10 +837,10 @@
             </objects>
             <point key="canvasLocation" x="3965.5999999999999" y="44.527736131934034"/>
         </scene>
-        <!--View Controller-->
+        <!--Orders View Controller-->
         <scene sceneID="uc8-vl-wIP">
             <objects>
-                <viewController id="Qph-k2-jSR" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OrderVC" id="Qph-k2-jSR" customClass="OrdersViewController" customModule="OnlineShopping" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kTj-yY-dOl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1004,7 +1005,7 @@
         <image name="profilePic.png" width="225" height="225"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="aLh-aD-0RC"/>
+        <segue reference="TON-Xh-7IZ"/>
         <segue reference="6ax-rw-LUw"/>
     </inferredMetricsTieBreakers>
 </document>

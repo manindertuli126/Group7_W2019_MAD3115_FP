@@ -36,7 +36,7 @@ class MenuTableViewController: UITableViewController {
                 self.performSegue(withIdentifier: "moveToAddToCart", sender: nil)
             case 2:
                 print("Orders")
-                self.performSegue(withIdentifier: "movetoItemList", sender: nil)
+                self.performSegue(withIdentifier: "moveToOrder", sender: nil)
             default:
                 print("Invalid")
             }

@@ -9,6 +9,7 @@
 import UIKit
 
 class AddToCartViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+    let sb = UIStoryboard(name: "Main", bundle: nil)
     var cartClass = Products()
     var productArray = [Products]()
     
@@ -21,6 +22,8 @@ class AddToCartViewController: UIViewController,UITableViewDelegate,UITableViewD
         productArray.append(cartClass)
         
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Place Order", style: .done ,target: self, action: #selector(OrderedPlaced))
+//        self.navigationItem.hidesBackButton = true
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Home", style: .done ,target: self, action: #selector(BackToHome))
         // Do any additional setup after loading the view.
     }
     
@@ -43,8 +46,15 @@ class AddToCartViewController: UIViewController,UITableViewDelegate,UITableViewD
         return 300.0
     }
     
-    @objc func OrderedPlaced(){}
+    @objc func OrderedPlaced(){
+        let orderVC = sb.instantiateViewController(withIdentifier: "OrderVC") as! OrdersViewController
+        self.navigationController?.pushViewController(orderVC, animated: true)
+    }
 
+    @objc func BackToHome(){
+        let homeVC = sb.instantiateViewController(withIdentifier: "MenuVC") as! MenuTableViewController
+        self.navigationController?.pushViewController(homeVC, animated: true)
+    }
     /*
     // MARK: - Navigation
 
