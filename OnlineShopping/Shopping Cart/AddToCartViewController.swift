@@ -46,6 +46,15 @@ class AddToCartViewController: UIViewController,UITableViewDelegate,UITableViewD
         return 300.0
     }
     
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            print("Deleted")
+            
+//            self.productArray.remove(at: indexPath.row)
+//            self.tableView.deleteRows(at: [indexPath], with: .automatic)
+        }
+    }
+    
     @objc func OrderedPlaced(){
         let orderVC = sb.instantiateViewController(withIdentifier: "OrderVC") as! OrdersViewController
         self.navigationController?.pushViewController(orderVC, animated: true)

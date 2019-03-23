@@ -42,6 +42,7 @@
 		FA8C99C5223D8724001874D3 /* BMWFront.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8C99BD223D8724001874D3 /* BMWFront.png */; };
 		FA90F11A22468B880047A6E4 /* Launch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA90F11922468B880047A6E4 /* Launch.jpg */; };
 		FA90F11D22468F150047A6E4 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA90F11C22468F150047A6E4 /* OrdersViewController.swift */; };
+		FA90F11F224694740047A6E4 /* ShoppingIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA90F11E224694740047A6E4 /* ShoppingIcon.jpg */; };
 		FA9E2177223CC39500CF9616 /* AudiFront.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA9E2175223CC39400CF9616 /* AudiFront.jpeg */; };
 		FA9E2178223CC39500CF9616 /* AudiBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA9E2176223CC39500CF9616 /* AudiBack.jpg */; };
 		FACEF485223A05E700A59B6C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACEF484223A05E700A59B6C /* SignUpViewController.swift */; };
@@ -92,6 +93,7 @@
 		FA8C99BD223D8724001874D3 /* BMWFront.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BMWFront.png; sourceTree = "<group>"; };
 		FA90F11922468B880047A6E4 /* Launch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Launch.jpg; sourceTree = "<group>"; };
 		FA90F11C22468F150047A6E4 /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		FA90F11E224694740047A6E4 /* ShoppingIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ShoppingIcon.jpg; sourceTree = "<group>"; };
 		FA9E2175223CC39400CF9616 /* AudiFront.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AudiFront.jpeg; sourceTree = "<group>"; };
 		FA9E2176223CC39500CF9616 /* AudiBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AudiBack.jpg; sourceTree = "<group>"; };
 		FACEF484223A05E700A59B6C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 		FA1E65D7223B5AC6008C2CC8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				FA90F11E224694740047A6E4 /* ShoppingIcon.jpg */,
 				FA3EDB1B22419FF4001D4A30 /* product Images */,
 				FA3EDB1A22419FC7001D4A30 /* BackgroundImages */,
 				FA3EDB0F22419F97001D4A30 /* Icons */,
@@ -361,6 +364,7 @@
 				FA4B3458224669A300879BA7 /* aboutUs.jpg in Resources */,
 				FA3EDB1922419FBD001D4A30 /* AudiIcon.jpg in Resources */,
 				FA9E2178223CC39500CF9616 /* AudiBack.jpg in Resources */,
+				FA90F11F224694740047A6E4 /* ShoppingIcon.jpg in Resources */,
 				FA3EDB1F2241A1F1001D4A30 /* BentleyFront.jpg in Resources */,
 				FA07E78D223DED1C009789BD /* UserCredentials.plist in Resources */,
 				FA8C99C0223D8724001874D3 /* MercedesBack.jpg in Resources */,

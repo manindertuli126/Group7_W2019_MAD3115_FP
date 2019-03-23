@@ -791,14 +791,6 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xPu-63-oRE">
-                                                    <rect key="frame" x="271" y="234" width="62" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <state key="normal" title="Remove">
-                                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    </state>
-                                                </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Price:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qvJ-dW-4dw">
                                                     <rect key="frame" x="211" y="205" width="44" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -837,10 +829,10 @@
             </objects>
             <point key="canvasLocation" x="3965.5999999999999" y="44.527736131934034"/>
         </scene>
-        <!--Orders View Controller-->
+        <!--Place Orders-->
         <scene sceneID="uc8-vl-wIP">
             <objects>
-                <viewController storyboardIdentifier="OrderVC" id="Qph-k2-jSR" customClass="OrdersViewController" customModule="OnlineShopping" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OrderVC" title="Place Orders" id="Qph-k2-jSR" customClass="OrdersViewController" customModule="OnlineShopping" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kTj-yY-dOl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1005,7 +997,7 @@
         <image name="profilePic.png" width="225" height="225"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="TON-Xh-7IZ"/>
+        <segue reference="aLh-aD-0RC"/>
         <segue reference="6ax-rw-LUw"/>
     </inferredMetricsTieBreakers>
 </document>
