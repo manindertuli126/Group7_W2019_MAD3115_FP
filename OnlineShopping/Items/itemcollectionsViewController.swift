@@ -27,18 +27,24 @@ class itemcollectionsViewController: UIViewController, UICollectionViewDataSourc
     }
     
     func appendItemDetails(){
+        let product1 = Products(productid: "111" ,productName: "Audi Q5", productBrand: "Audi", productDescription: "This officially licensed Audi Q5 ride-on for toddlers 3-8 years (under supervision of adult) with maximum rider weight of 66lbs", productPrice: 350.0, productFImage: "AudiFront.jpeg",productBImage: "AudiBack.jpg", productQuantity:1)
         
-        productClass.addproducts(pid: 111, prod: Products(productName: "Audi Q5", productBrand: "Audi", productDescription: "This officially licensed Audi Q5 ride-on for toddlers 3-8 years (under supervision of adult) with maximum rider weight of 66lbs", productPrice: 350.0, productFImage: "AudiFront.jpeg",productBImage: "AudiBack.jpg"))
+        let product2 = Products(productid: "222", productName: "BMW i8", productBrand: "BMW", productDescription: "The BMW i8 is ready to revolutionize its battery ride-on class. No longer a vision, but charged intelligence.", productPrice: 450.0, productFImage: "BMWFront",productBImage: "BMWBack", productQuantity:1)
         
-        productClass.addproducts(pid: 222, prod: Products(productName: "BMW i8", productBrand: "BMW", productDescription: "The BMW i8 is ready to revolutionize its battery ride-on class. No longer a vision, but charged intelligence.", productPrice: 450.0, productFImage: "BMWFront",productBImage: "BMWBack"))
+        let product3 = Products(productid: "333",productName: "Bentley Continental", productBrand: "Bentley", productDescription: "A licensed Bentley toy car, the Continental GT is ready one of the sharpest ride on toys on the market.", productPrice: 600.0, productFImage: "BentleyFront.jpg",productBImage: "BentleyBack.jpg", productQuantity:1)
         
-        productClass.addproducts(pid: 333, prod: Products(productName: "Bentley Continental", productBrand: "Bentley", productDescription: "A licensed Bentley toy car, the Continental GT is ready one of the sharpest ride on toys on the market.", productPrice: 600.0, productFImage: "BentleyFront.jpg",productBImage: "BentleyBack.jpg"))
+        let product4 = Products(productid: "444",productName: "Mercedes G55", productBrand: "Mercedes", productDescription: "Exclusively detailed exterior, licensed Mercedes benz G55 packed with all of the authentic badges,sounds, LED lights, MP3 input.", productPrice: 620.0, productFImage: "MercedesFront.jpg",productBImage: "MercedesBack.jpg", productQuantity:1)
         
-        productClass.addproducts(pid: 444, prod: Products(productName: "Mercedes G55", productBrand: "Mercedes", productDescription: "Exclusively detailed exterior, licensed Mercedes benz G55 packed with all of the authentic badges,sounds, LED lights, MP3 input.", productPrice: 620.0, productFImage: "MercedesFront.jpg",productBImage: "MercedesBack.jpg"))
+        let product5 = Products(productid: "555",productName: "Lamborghini Aventador", productBrand: "Lamborghini", productDescription: " Kids will love this ride on car with sport looking with upgraded 2x12v motors and 12v strong battery.", productPrice: 550.0, productFImage: "LamborghiniFront",productBImage: "LamborghiniBack", productQuantity:1)
         
-        productClass.addproducts(pid: 555, prod: Products(productName: "Lamborghini Aventador", productBrand: "Lamborghini", productDescription: " Kids will love this ride on car with sport looking with upgraded 2x12v motors and 12v strong battery.", productPrice: 550.0, productFImage: "LamborghiniFront",productBImage: "LamborghiniBack"))
+        let product6 = Products(productid: "666", productName: "Ferrari 12V LaFerrari", productBrand: "Ferrari", productDescription: "Officially licensed Ferrari LaFerrari electric ride on car Can be controlled by child via steering wheel and pedal or by parent with the included remote controller", productPrice: 320.0, productFImage: "FerrariFront",productBImage: "FerrariBack", productQuantity:1)
         
-        productClass.addproducts(pid: 666, prod: Products(productName: "Ferrari 12V LaFerrari", productBrand: "Ferrari", productDescription: "Officially licensed Ferrari LaFerrari electric ride on car Can be controlled by child via steering wheel and pedal or by parent with the included remote controller", productPrice: 320.0, productFImage: "FerrariFront",productBImage: "FerrariBack"))
+        productClass.addproducts(pid: 111, prod: product1)
+        productClass.addproducts(pid: 222, prod: product2)
+        productClass.addproducts(pid: 333, prod: product3)
+        productClass.addproducts(pid: 444, prod: product4)
+        productClass.addproducts(pid: 555, prod: product5)
+        productClass.addproducts(pid: 666, prod: product6)
     }
     
     override func didReceiveMemoryWarning() {
@@ -82,17 +88,17 @@ class itemcollectionsViewController: UIViewController, UICollectionViewDataSourc
         let destination = segue.destination as! ItemDetailsViewController
         switch self.passImageParameter{
         case 0:
-            destination.itemDetailObject=productClass.productdetails[111]!
+            destination.itemDetailObject = productClass.productdetails[111]!
         case 1:
-            destination.itemDetailObject=productClass.productdetails[222]!
+            destination.itemDetailObject = productClass.productdetails[222]!
         case 2:
-            destination.itemDetailObject=productClass.productdetails[333]!
+            destination.itemDetailObject = productClass.productdetails[333]!
         case 3:
-            destination.itemDetailObject=productClass.productdetails[444]!
+            destination.itemDetailObject = productClass.productdetails[444]!
         case 4:
-            destination.itemDetailObject=productClass.productdetails[555]!
+            destination.itemDetailObject = productClass.productdetails[555]!
         case 5:
-            destination.itemDetailObject=productClass.productdetails[666]!
+            destination.itemDetailObject = productClass.productdetails[666]!
         default:
             print("Invalid")
         }

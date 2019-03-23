@@ -25,15 +25,33 @@ class updateUserProfileViewController: UIViewController {
     }
     
     @objc func saveButton(){
-        updateUserData.set(udUserTxt.text, forKey: "username")
-        updateUserData.set(upPassTxt.text, forKey: "password")
-        updateUserData.set(upEmailTxt.text, forKey: "email")
-        updateUserData.set(upAddressTxt.text, forKey: "address")
+        for i in 0...3{
+            switch i {
+            case 0:
+                if ((udUserTxt.text?.count)! > 5){
+                    updateUserData.set(udUserTxt.text, forKey: "username")
+                }
+            case 1:
+                if (upPassTxt.text?.verifyPassword())!{
+                    updateUserData.set(udUserTxt.text, forKey: "password")
+                }
+            case 2:
+                if (upEmailTxt.text?.verifyEmail())!{
+                    updateUserData.set(udUserTxt.text, forKey: "email")
+                }
+            case 3:
+                if ((upAddressTxt.text?.count)! > 3){
+                    updateUserData.set(udUserTxt.text, forKey: "address")
+                }
+            default:
+                print("Invalid")
+            }
+        }
         
         let alert = UIAlertController(title: "DATA SAVED", message: "Data Save Successfully !!", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: {action in
             let sb = UIStoryboard(name: "Main", bundle: nil)
-            let profileVEC = sb.instantiateViewController(withIdentifier: "profileVC") as! ProfileViewController
+            let profileVEC = sb.instantiateViewController(withIdentifier: "MenuVC") as! MenuTableViewController
             self.navigationController?.pushViewController(profileVEC, animated: true)
     }))
         self.present(alert,animated: true)

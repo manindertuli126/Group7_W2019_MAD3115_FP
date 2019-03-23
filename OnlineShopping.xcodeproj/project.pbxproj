@@ -11,6 +11,8 @@
 		FA0CCD74224566E1003C3ED6 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0CCD73224566E1003C3ED6 /* Products.swift */; };
 		FA0CCD7822457437003C3ED6 /* FerrariFront.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0CCD7622457437003C3ED6 /* FerrariFront.png */; };
 		FA0CCD7922457437003C3ED6 /* FerrariBack.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0CCD7722457437003C3ED6 /* FerrariBack.png */; };
+		FA0CCD7B224598BC003C3ED6 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0CCD7A224598BC003C3ED6 /* Cart.swift */; };
+		FA0CCD8022459DE7003C3ED6 /* cartItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0CCD7F22459DE7003C3ED6 /* cartItemsTableViewCell.swift */; };
 		FA1DF773224069CB0038952F /* AddToCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1DF772224069CB0038952F /* AddToCartViewController.swift */; };
 		FA1E5F41224095610096835F /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1E5F40224095610096835F /* AboutUsViewController.swift */; };
 		FA1E5F43224095870096835F /* AboutUsData.html in Resources */ = {isa = PBXBuildFile; fileRef = FA1E5F42224095870096835F /* AboutUsData.html */; };
@@ -27,6 +29,7 @@
 		FA3EDB1E2241A1F1001D4A30 /* BentleyBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA3EDB1C2241A1F1001D4A30 /* BentleyBack.jpg */; };
 		FA3EDB1F2241A1F1001D4A30 /* BentleyFront.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA3EDB1D2241A1F1001D4A30 /* BentleyFront.jpg */; };
 		FA3EDB212241A36B001D4A30 /* LamborghiniIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA3EDB202241A36A001D4A30 /* LamborghiniIcon.jpg */; };
+		FA4B3458224669A300879BA7 /* aboutUs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA4B3457224669A300879BA7 /* aboutUs.jpg */; };
 		FA4F6AE62241800500DAD200 /* updateUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F6AE52241800500DAD200 /* updateUserProfileViewController.swift */; };
 		FA4F6AE82241815C00DAD200 /* profilePic.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4F6AE72241815B00DAD200 /* profilePic.png */; };
 		FA62E60422407CA4006FDC41 /* SignUpBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA62E60322407CA4006FDC41 /* SignUpBackground.jpg */; };
@@ -56,6 +59,8 @@
 		FA0CCD73224566E1003C3ED6 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 		FA0CCD7622457437003C3ED6 /* FerrariFront.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FerrariFront.png; sourceTree = "<group>"; };
 		FA0CCD7722457437003C3ED6 /* FerrariBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FerrariBack.png; sourceTree = "<group>"; };
+		FA0CCD7A224598BC003C3ED6 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		FA0CCD7F22459DE7003C3ED6 /* cartItemsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartItemsTableViewCell.swift; sourceTree = "<group>"; };
 		FA1DF772224069CB0038952F /* AddToCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartViewController.swift; sourceTree = "<group>"; };
 		FA1E5F40224095610096835F /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 		FA1E5F42224095870096835F /* AboutUsData.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = AboutUsData.html; sourceTree = "<group>"; };
@@ -72,6 +77,7 @@
 		FA3EDB1C2241A1F1001D4A30 /* BentleyBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BentleyBack.jpg; sourceTree = "<group>"; };
 		FA3EDB1D2241A1F1001D4A30 /* BentleyFront.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BentleyFront.jpg; sourceTree = "<group>"; };
 		FA3EDB202241A36A001D4A30 /* LamborghiniIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LamborghiniIcon.jpg; sourceTree = "<group>"; };
+		FA4B3457224669A300879BA7 /* aboutUs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aboutUs.jpg; sourceTree = "<group>"; };
 		FA4F6AE52241800500DAD200 /* updateUserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateUserProfileViewController.swift; sourceTree = "<group>"; };
 		FA4F6AE72241815B00DAD200 /* profilePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profilePic.png; sourceTree = "<group>"; };
 		FA62E60322407CA4006FDC41 /* SignUpBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SignUpBackground.jpg; sourceTree = "<group>"; };
@@ -121,8 +127,18 @@
 			isa = PBXGroup;
 			children = (
 				FA0CCD73224566E1003C3ED6 /* Products.swift */,
+				FA0CCD7A224598BC003C3ED6 /* Cart.swift */,
 			);
 			path = Products;
+			sourceTree = "<group>";
+		};
+		FA0CCD7C22459AB3003C3ED6 /* Shopping Cart */ = {
+			isa = PBXGroup;
+			children = (
+				FA1DF772224069CB0038952F /* AddToCartViewController.swift */,
+				FA0CCD7F22459DE7003C3ED6 /* cartItemsTableViewCell.swift */,
+			);
+			path = "Shopping Cart";
 			sourceTree = "<group>";
 		};
 		FA1E5F442240958E0096835F /* About Us */ = {
@@ -160,6 +176,7 @@
 		FA3EDB1A22419FC7001D4A30 /* BackgroundImages */ = {
 			isa = PBXGroup;
 			children = (
+				FA4B3457224669A300879BA7 /* aboutUs.jpg */,
 				FA4F6AE72241815B00DAD200 /* profilePic.png */,
 				FA62E60322407CA4006FDC41 /* SignUpBackground.jpg */,
 				FA38366522404AA7006D87C1 /* LoginBackGround.jpg */,
@@ -243,6 +260,7 @@
 		FAF89839223819EA00FC3FA4 /* OnlineShopping */ = {
 			isa = PBXGroup;
 			children = (
+				FA0CCD7C22459AB3003C3ED6 /* Shopping Cart */,
 				FA0CCD72224566CD003C3ED6 /* SwitClasses */,
 				FACEF48F223A0C3D00A59B6C /* SignUpAndLogin */,
 				FACEF490223A0CC300A59B6C /* Profile */,
@@ -258,7 +276,6 @@
 				FACEF486223A060400A59B6C /* WelcomeViewController.swift */,
 				FA07E78C223DED1C009789BD /* UserCredentials.plist */,
 				FA7C45E922403BD500F20CA2 /* verifyValidations.swift */,
-				FA1DF772224069CB0038952F /* AddToCartViewController.swift */,
 			);
 			path = OnlineShopping;
 			sourceTree = "<group>";
@@ -327,6 +344,7 @@
 				FA3EDB212241A36B001D4A30 /* LamborghiniIcon.jpg in Resources */,
 				FA1F200D223CB420007CC7B9 /* WelcomeWall.jpg in Resources */,
 				FA62E60422407CA4006FDC41 /* SignUpBackground.jpg in Resources */,
+				FA4B3458224669A300879BA7 /* aboutUs.jpg in Resources */,
 				FA3EDB1922419FBD001D4A30 /* AudiIcon.jpg in Resources */,
 				FA9E2178223CC39500CF9616 /* AudiBack.jpg in Resources */,
 				FA3EDB1F2241A1F1001D4A30 /* BentleyFront.jpg in Resources */,
@@ -365,7 +383,9 @@
 				FA1E5F41224095610096835F /* AboutUsViewController.swift in Sources */,
 				FACEF487223A060400A59B6C /* WelcomeViewController.swift in Sources */,
 				FACEF48B223A0BC400A59B6C /* ItemDetailsViewController.swift in Sources */,
+				FA0CCD8022459DE7003C3ED6 /* cartItemsTableViewCell.swift in Sources */,
 				FACEF489223A08C300A59B6C /* MenuTableViewController.swift in Sources */,
+				FA0CCD7B224598BC003C3ED6 /* Cart.swift in Sources */,
 				FAF8983D223819EA00FC3FA4 /* LoginViewController.swift in Sources */,
 				FACEF492223A0CE600A59B6C /* ProfileViewController.swift in Sources */,
 				FA7C45EA22403BD500F20CA2 /* verifyValidations.swift in Sources */,
