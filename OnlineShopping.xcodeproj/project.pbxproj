@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA07E78D223DED1C009789BD /* UserCredentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA07E78C223DED1C009789BD /* UserCredentials.plist */; };
 		FA0CCD74224566E1003C3ED6 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0CCD73224566E1003C3ED6 /* Products.swift */; };
 		FA0CCD7822457437003C3ED6 /* FerrariFront.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0CCD7622457437003C3ED6 /* FerrariFront.png */; };
 		FA0CCD7922457437003C3ED6 /* FerrariBack.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0CCD7722457437003C3ED6 /* FerrariBack.png */; };
@@ -32,6 +31,7 @@
 		FA4B3458224669A300879BA7 /* aboutUs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA4B3457224669A300879BA7 /* aboutUs.jpg */; };
 		FA4F6AE62241800500DAD200 /* updateUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F6AE52241800500DAD200 /* updateUserProfileViewController.swift */; };
 		FA4F6AE82241815C00DAD200 /* profilePic.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4F6AE72241815B00DAD200 /* profilePic.png */; };
+		FA5D934F224836FA004A876F /* Cart2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5D934E224836F9004A876F /* Cart2.jpg */; };
 		FA62E60422407CA4006FDC41 /* SignUpBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA62E60322407CA4006FDC41 /* SignUpBackground.jpg */; };
 		FA72E0F922471326005E3AEE /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA72E0F822471326005E3AEE /* PaymentViewController.swift */; };
 		FA72E100224737FE005E3AEE /* Order.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA72E0FA224737FD005E3AEE /* Order.jpg */; };
@@ -66,7 +66,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FA07E78C223DED1C009789BD /* UserCredentials.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UserCredentials.plist; sourceTree = "<group>"; };
 		FA0CCD73224566E1003C3ED6 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 		FA0CCD7622457437003C3ED6 /* FerrariFront.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FerrariFront.png; sourceTree = "<group>"; };
 		FA0CCD7722457437003C3ED6 /* FerrariBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FerrariBack.png; sourceTree = "<group>"; };
@@ -91,6 +90,7 @@
 		FA4B3457224669A300879BA7 /* aboutUs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aboutUs.jpg; sourceTree = "<group>"; };
 		FA4F6AE52241800500DAD200 /* updateUserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateUserProfileViewController.swift; sourceTree = "<group>"; };
 		FA4F6AE72241815B00DAD200 /* profilePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profilePic.png; sourceTree = "<group>"; };
+		FA5D934E224836F9004A876F /* Cart2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cart2.jpg; sourceTree = "<group>"; };
 		FA62E60322407CA4006FDC41 /* SignUpBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SignUpBackground.jpg; sourceTree = "<group>"; };
 		FA72E0F822471326005E3AEE /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		FA72E0FA224737FD005E3AEE /* Order.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Order.jpg; sourceTree = "<group>"; };
@@ -176,6 +176,7 @@
 		FA1E65D7223B5AC6008C2CC8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				FA5D934E224836F9004A876F /* Cart2.jpg */,
 				FA72E0FA224737FD005E3AEE /* Order.jpg */,
 				FA72E0FB224737FD005E3AEE /* Profile.jpg */,
 				FA72E0FC224737FD005E3AEE /* AboutUs.jpeg */,
@@ -324,7 +325,6 @@
 				FAF89841223819EB00FC3FA4 /* Assets.xcassets */,
 				FAF89843223819EB00FC3FA4 /* LaunchScreen.storyboard */,
 				FAF89846223819EB00FC3FA4 /* Info.plist */,
-				FA07E78C223DED1C009789BD /* UserCredentials.plist */,
 			);
 			path = OnlineShopping;
 			sourceTree = "<group>";
@@ -401,7 +401,6 @@
 				FA9E2178223CC39500CF9616 /* AudiBack.jpg in Resources */,
 				FA90F11F224694740047A6E4 /* ShoppingIcon.jpg in Resources */,
 				FA3EDB1F2241A1F1001D4A30 /* BentleyFront.jpg in Resources */,
-				FA07E78D223DED1C009789BD /* UserCredentials.plist in Resources */,
 				FA8C99C0223D8724001874D3 /* MercedesBack.jpg in Resources */,
 				FAF89842223819EB00FC3FA4 /* Assets.xcassets in Resources */,
 				FA4F6AE82241815C00DAD200 /* profilePic.png in Resources */,
@@ -411,6 +410,7 @@
 				FA8C99C3223D8724001874D3 /* LamborghiniBack.png in Resources */,
 				FA3EDB1522419FBD001D4A30 /* MercedesIcon.jpg in Resources */,
 				FA8C99BE223D8724001874D3 /* BMWBack.png in Resources */,
+				FA5D934F224836FA004A876F /* Cart2.jpg in Resources */,
 				FA72E103224737FE005E3AEE /* Home.jpg in Resources */,
 				FA72E102224737FE005E3AEE /* AboutUs.jpeg in Resources */,
 				FA3EDB1822419FBD001D4A30 /* BentleyIcon.jpg in Resources */,

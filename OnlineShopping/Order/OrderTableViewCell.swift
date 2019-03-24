@@ -12,6 +12,7 @@ class OrderTableViewCell: UITableViewCell {
 
     @IBOutlet weak var orderIdLbl: UILabel!
     @IBOutlet weak var shippingLbl: UILabel!
+    @IBOutlet weak var payMethodLbl: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

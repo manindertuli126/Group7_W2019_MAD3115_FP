@@ -11,7 +11,6 @@ import UIKit
 class PaymentViewController: UIViewController {
 
     let getUserAddress = UserDefaults.standard
-    var cashOrCard = false //Cash
     
     @IBOutlet weak var shippingAddressLbl: UITextField!
     
@@ -37,15 +36,13 @@ class PaymentViewController: UIViewController {
     @IBAction func placeOrderBtn(_ sender: UIButton) {
         let sb1 = UIStoryboard(name: "Main", bundle: nil)
         let orderVC = sb1.instantiateViewController(withIdentifier: "OrderVC") as! OrdersViewController
-        if self.cashOrCard{
+        if Cart.accessCart.paymentMethod{
             if (self.BankLbl.text?.count)! > 15 {
                 self.getUserAddress.set(self.BankLbl.text, forKey: "cardno")
                 if (self.AccountNoLbl.text?.count)! > 2{
                     self.getUserAddress.set(self.AccountNoLbl.text, forKey: "CVV")
                     
-                    //Adding order ID
-                    Cart.accessCart.orderedProduct.updateValue(Cart.accessCart.productList, forKey: Cart.accessCart.OrderID)
-                    Cart.accessCart.productList.removeAll()
+                   addProductOrderedList()
                     
                     if((self.shippingAddressLbl.text?.count)! > 3){
                         self.getUserAddress.set(self.shippingAddressLbl.text, forKey: "address")
@@ -65,8 +62,20 @@ class PaymentViewController: UIViewController {
                 self.present(alert,animated: true)
             }
         }else{
+            
+            addProductOrderedList()
+            if((self.shippingAddressLbl.text?.count)! > 3){
+                self.getUserAddress.set(self.shippingAddressLbl.text, forKey: "address")
+            }
             self.navigationController?.pushViewController(orderVC, animated: true)
         }
+    }
+    
+    func addProductOrderedList(){
+        //Adding order ID
+        let list = Cart.accessCart.productList
+        Cart.accessCart.orderedProductList.append(list)
+        Cart.accessCart.productList.removeAll()
     }
     
     
@@ -78,13 +87,13 @@ class PaymentViewController: UIViewController {
             self.SelectAccountLbl.isHidden = true
             self.AccountNoLbl.isHidden = true
             self.BankLbl.isHidden = true
-            cashOrCard = false
+            Cart.accessCart.paymentMethod = false
         case 1:
             self.SelectBankLbl.isHidden = false
             self.SelectAccountLbl.isHidden = false
             self.AccountNoLbl.isHidden = false
             self.BankLbl.isHidden = false
-            cashOrCard = true
+            Cart.accessCart.paymentMethod = true
         default:
             print("Invalid")
         }

@@ -57,10 +57,6 @@ class AddToCartViewController: UIViewController,UITableViewDelegate,UITableViewD
         if excessProductList.productList.count > 0{
         let alert = UIAlertController(title: "Payment", message: "Do you want to place order and procced with Payment?", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Confirm", style: .default, handler: {action in
-            
-            //Adding order ID
-//    Cart.accessCart.orderedProduct.updateValue(Cart.accessCart.productList, forKey: self.excessProductList.OrderID)
-//            Cart.accessCart.productList.removeAll()
             let sb1 = UIStoryboard(name: "Main", bundle: nil)
             let orderVC = sb1.instantiateViewController(withIdentifier: "PaymentVC") as! PaymentViewController
             self.navigationController?.pushViewController(orderVC, animated: true) }))

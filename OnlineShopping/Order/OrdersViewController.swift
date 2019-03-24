@@ -12,13 +12,14 @@ class OrdersViewController: UIViewController,UITableViewDelegate,UITableViewData
     
     var excessProductList = Cart.accessCart
     var getAddress = UserDefaults.standard
-    var randomOrderId = Int()
+    var OrderID = Int.random(in: 99...999)
     
     @IBOutlet weak var orderTable: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
         self.orderTable.delegate = self
         self.orderTable.dataSource = self
+//        excessProductList.orderedProduct.updateValue(excessProductList.orderedProductList, forKey: self.OrderID)
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Home", style: .done ,target: self, action: #selector(BackToHome))
         // Do any additional setup after loading the view.
     }
@@ -30,14 +31,20 @@ class OrdersViewController: UIViewController,UITableViewDelegate,UITableViewData
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print(excessProductList.orderedProduct.count)
-        return excessProductList.orderedProduct.count
+        print(excessProductList.orderedProductList.count)
+        return excessProductList.orderedProductList.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let orderCell = tableView.dequeueReusableCell(withIdentifier: "PlacedOrderCell") as! OrderTableViewCell
-        orderCell.orderIdLbl.text = String(excessProductList.OrderID)
+        orderCell.orderIdLbl.text = String(excessProductList.totalPrice).addDollar()
+        if Cart.accessCart.paymentMethod == true{
+            orderCell.payMethodLbl.text = "Card Payment"
+        }else{
+            orderCell.payMethodLbl.text = "Cash"
+        }
         orderCell.shippingLbl.text = getAddress.string(forKey: "address")
+        
         return orderCell
     }
     

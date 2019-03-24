@@ -14,16 +14,12 @@ class Cart{
     private var cartid:Int?
     var productid:String?
     var quantity:Int?
-    var OrderID = Int.random(in: 99...999)
+    
     var totalPrice = Int()
-//    var count:Int?
-//    var subtotal:Float?
-//    var total:Float?
-//    var name:String=""
-//    var price:Float=0.0
-//    var tprice:Float?
+    var paymentMethod = false
     var productList = [Products]()
-    var orderedProduct = Dictionary<Int,[Products]>()
+    var orderedProductList = [Array<Products>]()
+    var orderedProduct = Dictionary<Int,[Array<Products>]>()
     
     private init()
     {
