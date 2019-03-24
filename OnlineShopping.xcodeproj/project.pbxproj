@@ -34,6 +34,12 @@
 		FA4F6AE82241815C00DAD200 /* profilePic.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4F6AE72241815B00DAD200 /* profilePic.png */; };
 		FA62E60422407CA4006FDC41 /* SignUpBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA62E60322407CA4006FDC41 /* SignUpBackground.jpg */; };
 		FA72E0F922471326005E3AEE /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA72E0F822471326005E3AEE /* PaymentViewController.swift */; };
+		FA72E100224737FE005E3AEE /* Order.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA72E0FA224737FD005E3AEE /* Order.jpg */; };
+		FA72E101224737FE005E3AEE /* Profile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA72E0FB224737FD005E3AEE /* Profile.jpg */; };
+		FA72E102224737FE005E3AEE /* AboutUs.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA72E0FC224737FD005E3AEE /* AboutUs.jpeg */; };
+		FA72E103224737FE005E3AEE /* Home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA72E0FD224737FE005E3AEE /* Home.jpg */; };
+		FA72E104224737FE005E3AEE /* Cart.png in Resources */ = {isa = PBXBuildFile; fileRef = FA72E0FE224737FE005E3AEE /* Cart.png */; };
+		FA72E105224737FE005E3AEE /* Logout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA72E0FF224737FE005E3AEE /* Logout.jpg */; };
 		FA7C45EA22403BD500F20CA2 /* verifyValidations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C45E922403BD500F20CA2 /* verifyValidations.swift */; };
 		FA8C99BE223D8724001874D3 /* BMWBack.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8C99B6223D8723001874D3 /* BMWBack.png */; };
 		FA8C99BF223D8724001874D3 /* MercedesFront.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA8C99B7223D8724001874D3 /* MercedesFront.jpg */; };
@@ -87,6 +93,12 @@
 		FA4F6AE72241815B00DAD200 /* profilePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profilePic.png; sourceTree = "<group>"; };
 		FA62E60322407CA4006FDC41 /* SignUpBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SignUpBackground.jpg; sourceTree = "<group>"; };
 		FA72E0F822471326005E3AEE /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		FA72E0FA224737FD005E3AEE /* Order.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Order.jpg; sourceTree = "<group>"; };
+		FA72E0FB224737FD005E3AEE /* Profile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Profile.jpg; sourceTree = "<group>"; };
+		FA72E0FC224737FD005E3AEE /* AboutUs.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AboutUs.jpeg; sourceTree = "<group>"; };
+		FA72E0FD224737FE005E3AEE /* Home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Home.jpg; sourceTree = "<group>"; };
+		FA72E0FE224737FE005E3AEE /* Cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cart.png; sourceTree = "<group>"; };
+		FA72E0FF224737FE005E3AEE /* Logout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logout.jpg; sourceTree = "<group>"; };
 		FA7C45E922403BD500F20CA2 /* verifyValidations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verifyValidations.swift; sourceTree = "<group>"; };
 		FA8C99B6223D8723001874D3 /* BMWBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BMWBack.png; sourceTree = "<group>"; };
 		FA8C99B7223D8724001874D3 /* MercedesFront.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MercedesFront.jpg; sourceTree = "<group>"; };
@@ -164,6 +176,12 @@
 		FA1E65D7223B5AC6008C2CC8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				FA72E0FA224737FD005E3AEE /* Order.jpg */,
+				FA72E0FB224737FD005E3AEE /* Profile.jpg */,
+				FA72E0FC224737FD005E3AEE /* AboutUs.jpeg */,
+				FA72E0FF224737FE005E3AEE /* Logout.jpg */,
+				FA72E0FE224737FE005E3AEE /* Cart.png */,
+				FA72E0FD224737FE005E3AEE /* Home.jpg */,
 				FA3EDB1B22419FF4001D4A30 /* product Images */,
 				FA3EDB1A22419FC7001D4A30 /* BackgroundImages */,
 				FA3EDB0F22419F97001D4A30 /* Icons */,
@@ -371,8 +389,11 @@
 			files = (
 				FAF89845223819EB00FC3FA4 /* LaunchScreen.storyboard in Resources */,
 				FA3EDB1622419FBD001D4A30 /* FerrariIcon.jpg in Resources */,
+				FA72E105224737FE005E3AEE /* Logout.jpg in Resources */,
 				FA22081022412B8E0042D912 /* SignUpbackgroungImage.jpg in Resources */,
 				FA3EDB212241A36B001D4A30 /* LamborghiniIcon.jpg in Resources */,
+				FA72E101224737FE005E3AEE /* Profile.jpg in Resources */,
+				FA72E100224737FE005E3AEE /* Order.jpg in Resources */,
 				FA1F200D223CB420007CC7B9 /* WelcomeWall.jpg in Resources */,
 				FA62E60422407CA4006FDC41 /* SignUpBackground.jpg in Resources */,
 				FA4B3458224669A300879BA7 /* aboutUs.jpg in Resources */,
@@ -390,6 +411,8 @@
 				FA8C99C3223D8724001874D3 /* LamborghiniBack.png in Resources */,
 				FA3EDB1522419FBD001D4A30 /* MercedesIcon.jpg in Resources */,
 				FA8C99BE223D8724001874D3 /* BMWBack.png in Resources */,
+				FA72E103224737FE005E3AEE /* Home.jpg in Resources */,
+				FA72E102224737FE005E3AEE /* AboutUs.jpeg in Resources */,
 				FA3EDB1822419FBD001D4A30 /* BentleyIcon.jpg in Resources */,
 				FA38366622404AA7006D87C1 /* LoginBackGround.jpg in Resources */,
 				FA3EDB1E2241A1F1001D4A30 /* BentleyBack.jpg in Resources */,
@@ -397,6 +420,7 @@
 				FA90F11A22468B880047A6E4 /* Launch.jpg in Resources */,
 				FA1E5F43224095870096835F /* AboutUsData.html in Resources */,
 				FA0CCD7822457437003C3ED6 /* FerrariFront.png in Resources */,
+				FA72E104224737FE005E3AEE /* Cart.png in Resources */,
 				FA9E2177223CC39500CF9616 /* AudiFront.jpeg in Resources */,
 				FA8C99C2223D8724001874D3 /* LamborghiniFront.png in Resources */,
 				FAF89840223819EA00FC3FA4 /* Main.storyboard in Resources */,

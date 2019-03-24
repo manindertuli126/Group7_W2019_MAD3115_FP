@@ -35,9 +35,9 @@ class AddToCartViewController: UIViewController,UITableViewDelegate,UITableViewD
         cartCell.cartImage.image = UIImage(named: excessProductList.productList[indexPath.row].productFImage)
         cartCell.cartName.text = excessProductList.productList[indexPath.row].productName
         cartCell.cartQuantity.text = String(excessProductList.productList[indexPath.row].productQuantity)
-        cartCell.cartSinglePrice.text = String(excessProductList.productList[indexPath.row].productPrice)
-        let totalPrice = excessProductList.productList[indexPath.row].productPrice * Float(excessProductList.productList[indexPath.row].productQuantity)
-        cartCell.cartPrice.text = String(totalPrice)
+        cartCell.cartSinglePrice.text = String(excessProductList.productList[indexPath.row].productPrice).addDollar()
+        Cart.accessCart.totalPrice = Int(excessProductList.productList[indexPath.row].productPrice * Float(excessProductList.productList[indexPath.row].productQuantity))
+        cartCell.cartPrice.text = String(Cart.accessCart.totalPrice).addDollar()
         return cartCell
     }
     
@@ -59,8 +59,8 @@ class AddToCartViewController: UIViewController,UITableViewDelegate,UITableViewD
         alert.addAction(UIAlertAction(title: "Confirm", style: .default, handler: {action in
             
             //Adding order ID
-    Cart.accessCart.orderedProduct.updateValue(Cart.accessCart.productList, forKey: self.excessProductList.OrderID)
-            Cart.accessCart.productList.removeAll()
+//    Cart.accessCart.orderedProduct.updateValue(Cart.accessCart.productList, forKey: self.excessProductList.OrderID)
+//            Cart.accessCart.productList.removeAll()
             let sb1 = UIStoryboard(name: "Main", bundle: nil)
             let orderVC = sb1.instantiateViewController(withIdentifier: "PaymentVC") as! PaymentViewController
             self.navigationController?.pushViewController(orderVC, animated: true) }))

@@ -15,6 +15,7 @@ class Cart{
     var productid:String?
     var quantity:Int?
     var OrderID = Int.random(in: 99...999)
+    var totalPrice = Int()
 //    var count:Int?
 //    var subtotal:Float?
 //    var total:Float?

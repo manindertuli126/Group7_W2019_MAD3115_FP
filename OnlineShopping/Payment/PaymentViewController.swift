@@ -20,6 +20,8 @@ class PaymentViewController: UIViewController {
     @IBOutlet weak var AccountNoLbl: UITextField!
     @IBOutlet weak var BankLbl: UITextField!
     
+    @IBOutlet weak var totalAmountLbl: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.SelectBankLbl.isHidden = true
@@ -27,6 +29,7 @@ class PaymentViewController: UIViewController {
         self.AccountNoLbl.isHidden = true
         self.BankLbl.isHidden = true
         self.shippingAddressLbl.text = self.getUserAddress.string(forKey: "address")
+        self.totalAmountLbl.text = String(Cart.accessCart.totalPrice).addDollar()
         
         // Do any additional setup after loading the view.
     }
@@ -85,12 +88,6 @@ class PaymentViewController: UIViewController {
         default:
             print("Invalid")
         }
-    }
-    
-    
-    
-    @objc func OrderedPlaced(){
-        
     }
 
     /*

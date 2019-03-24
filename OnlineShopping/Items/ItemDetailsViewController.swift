@@ -27,7 +27,7 @@ class ItemDetailsViewController: UIViewController {
         
         self.itemNameLbl.text = itemDetailObject.productName
         self.itemBrandLbl.text = itemDetailObject.productBrand
-        self.itemPriceLbl.text = String(itemDetailObject.productPrice)
+        self.itemPriceLbl.text = String(itemDetailObject.productPrice).addDollar()
         self.itemDescLal.text = itemDetailObject.productDescription
         // Do any additional setup after loading the view.
     }
