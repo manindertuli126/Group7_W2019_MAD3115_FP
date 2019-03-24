@@ -22,6 +22,7 @@ class Cart{
 //    var price:Float=0.0
 //    var tprice:Float?
     var productList = [Products]()
+    var orderedProduct = Dictionary<Int,[Products]>()
     
     private init()
     {

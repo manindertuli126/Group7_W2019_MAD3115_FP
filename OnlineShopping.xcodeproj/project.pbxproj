@@ -33,6 +33,7 @@
 		FA4F6AE62241800500DAD200 /* updateUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F6AE52241800500DAD200 /* updateUserProfileViewController.swift */; };
 		FA4F6AE82241815C00DAD200 /* profilePic.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4F6AE72241815B00DAD200 /* profilePic.png */; };
 		FA62E60422407CA4006FDC41 /* SignUpBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA62E60322407CA4006FDC41 /* SignUpBackground.jpg */; };
+		FA72E0F922471326005E3AEE /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA72E0F822471326005E3AEE /* PaymentViewController.swift */; };
 		FA7C45EA22403BD500F20CA2 /* verifyValidations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C45E922403BD500F20CA2 /* verifyValidations.swift */; };
 		FA8C99BE223D8724001874D3 /* BMWBack.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8C99B6223D8723001874D3 /* BMWBack.png */; };
 		FA8C99BF223D8724001874D3 /* MercedesFront.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA8C99B7223D8724001874D3 /* MercedesFront.jpg */; };
@@ -85,6 +86,7 @@
 		FA4F6AE52241800500DAD200 /* updateUserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateUserProfileViewController.swift; sourceTree = "<group>"; };
 		FA4F6AE72241815B00DAD200 /* profilePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profilePic.png; sourceTree = "<group>"; };
 		FA62E60322407CA4006FDC41 /* SignUpBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SignUpBackground.jpg; sourceTree = "<group>"; };
+		FA72E0F822471326005E3AEE /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		FA7C45E922403BD500F20CA2 /* verifyValidations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verifyValidations.swift; sourceTree = "<group>"; };
 		FA8C99B6223D8723001874D3 /* BMWBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BMWBack.png; sourceTree = "<group>"; };
 		FA8C99B7223D8724001874D3 /* MercedesFront.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MercedesFront.jpg; sourceTree = "<group>"; };
@@ -224,6 +226,14 @@
 			path = Menu;
 			sourceTree = "<group>";
 		};
+		FA72E0F722471306005E3AEE /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				FA72E0F822471326005E3AEE /* PaymentViewController.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
 		FA90F11B22468EF80047A6E4 /* Order */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,6 +291,7 @@
 		FAF89839223819EA00FC3FA4 /* OnlineShopping */ = {
 			isa = PBXGroup;
 			children = (
+				FA72E0F722471306005E3AEE /* Payment */,
 				FA90F11B22468EF80047A6E4 /* Order */,
 				FA0CCD7C22459AB3003C3ED6 /* Shopping Cart */,
 				FA0CCD72224566CD003C3ED6 /* SwitClasses */,
@@ -401,6 +412,7 @@
 			files = (
 				FA2208122241303A0042D912 /* itemlistCollectionViewCell.swift in Sources */,
 				FACEF485223A05E700A59B6C /* SignUpViewController.swift in Sources */,
+				FA72E0F922471326005E3AEE /* PaymentViewController.swift in Sources */,
 				FA220814224130E70042D912 /* itemcollectionsViewController.swift in Sources */,
 				FA1E5F41224095610096835F /* AboutUsViewController.swift in Sources */,
 				FACEF487223A060400A59B6C /* WelcomeViewController.swift in Sources */,

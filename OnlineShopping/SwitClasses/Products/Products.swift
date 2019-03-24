@@ -19,7 +19,6 @@ class Products{
     var productPrice:Float
     var productQuantity:Int
     var productdetails=Dictionary<Int,Products>()
-    var orderedProduct = Dictionary<Int,[Products]>()
     
     init (){
         self.productid = String()

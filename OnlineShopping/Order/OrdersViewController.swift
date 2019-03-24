@@ -30,8 +30,8 @@ class OrdersViewController: UIViewController,UITableViewDelegate,UITableViewData
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print(Products.accessOrder.orderedProduct.count)
-        return Products.accessOrder.orderedProduct.count
+        print(excessProductList.orderedProduct.count)
+        return excessProductList.orderedProduct.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
