@@ -29,18 +29,17 @@ class SignUpViewController: UIViewController {
 //
             //Username
         if (signUpPageUsernameTxt.text?.count)! > 5 {
-            userData.set(signUpPageUsernameTxt.text, forKey: "username")
-            
             //Password
             if (signUpPagePasswordTxt.text?.verifyPassword())! {
-                userData.set(signUpPagePasswordTxt.text, forKey:"password")
-                
                 //Email
                 if (signUpPageEmailTxt.text?.verifyEmail())! {
-                    userData.set(signUpPageEmailTxt.text, forKey: "email")
                     
                     if (signUpPageAddressTxt.text?.count)! > 3 {
-                    userData.set(signUpPageAddressTxt.text, forKey: "address")
+                        
+                        userData.set(signUpPageUsernameTxt.text, forKey: "username")
+                        userData.set(signUpPagePasswordTxt.text, forKey:"password")
+                        userData.set(signUpPageEmailTxt.text, forKey: "email")
+                        userData.set(signUpPageAddressTxt.text, forKey: "address")
                         
                         //Move To Home Page
                         let sb = UIStoryboard(name: "Main", bundle: nil)
