@@ -854,10 +854,10 @@
             </objects>
             <point key="canvasLocation" x="2966" y="133"/>
         </scene>
-        <!--Confirm Shipping Address-->
+        <!--Payment-->
         <scene sceneID="nGN-aL-cyC">
             <objects>
-                <viewController storyboardIdentifier="PaymentVC" title="Confirm Shipping Address" id="WYX-qt-T7w" customClass="PaymentViewController" customModule="OnlineShopping" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PaymentVC" title="Payment" id="WYX-qt-T7w" customClass="PaymentViewController" customModule="OnlineShopping" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kvB-af-B4v">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
